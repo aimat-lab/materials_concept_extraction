@@ -1,0 +1,196 @@
+Extract the concepts of this abstract, concepts can be phrases of multiple words, I want you to only give me the concepts as a list.
+Prefer substantiation to be consistent when extracting concepts e.g. mixed powders heated => mixed powder heating
+
+Below are some complex examples with IDs (Wxxxxxxx) and the concepts that should be extracted from them.
+The IDs can be ignored.
+
+================================================================================
+
+W2050041941
+
+Review of the anatase to rutile phase transformation. Titanium dioxide, TiO2, is
+an important photocatalytic material that exists as two main polymorphs, anatase
+and rutile. The presence of either or both of these phases impacts on the
+photocatalytic performance of the material. The present work reviews the anatase
+to rutile phase transformation. The synthesis and properties of anatase and
+rutile are examined, followed by a discussion of the thermodynamics of the phase
+transformation and the factors affecting its observation. A comprehensive
+analysis of the reported effects of dopants on the anatase to rutile phase
+transformation and the mechanisms by which these effects are brought about is
+presented in this review, yielding a plot of the cationic radius versus the
+valence characterised by a distinct boundary between inhibitors and promoters of
+the phase transformation. Further, the likely effects of dopant elements,
+including those for which experimental data are unavailable, on the phase
+transformation are deduced and presented on the basis of this analysis.
+
+titanium dioxide
+photocatalytic material
+anatase
+rutile
+polymorph
+photocatalytic performance
+phase transformation
+anatase to rutile phase transformation
+thermodynamics of phase transformation
+synthesis and property
+dopants
+cationic radius
+valence
+inhibitors
+promoter
+dopant element
+
+================================================================================
+
+W2023728301
+
+Review: liquid phase sintering. Liquid phase sintering LPS is a process for
+forming high performance, multiple-phase components from powders. It involves
+sintering under conditions where solid grains coexist with a wetting liquid.
+Many variants of LPS are applied to a wide range of engineering materials.
+Example applications for this technology are found in automobile engine
+connecting rods and high-speed metal cutting inserts. Scientific advances in
+understanding LPS began in the 1950s. The resulting quantitative process models
+are now embedded in computer simulations to enable predictions of the sintered
+component dimensions, microstructure, and properties. However, there are
+remaining areas in need of research attention. This LPS review, based on over
+2,500 publications, outlines what happens when mixed powders are heated to the
+LPS temperature, with a focus on the densification and microstructure evolution
+events.
+
+liquid phase sintering
+multi-phase component
+multi-phase formation
+powder
+solid grains
+wetting liquid
+metal cutting insert
+engine connecting rod
+mixed powder heating
+computer simulation
+densification and microstructure evolution
+densification 
+microstructure
+
+================================================================================
+
+W2144804459
+
+Review: environmental friendly lead-free piezoelectric materials. Lead zirconate
+titanate PZT based piezoelectric materials are well known for their excellent
+piezoelectric properties. However, considering the toxicity of lead and its
+compounds, there is a general awareness for the development of environmental
+friendly lead-free materials as evidenced from the legislation passed by the
+European Union in this effect. Several classes of materials are now being
+considered as potentially attractive alternatives tofor specific applications.
+In this paper, attempts have been made to review the recent developments on
+lead-free piezo materials emphasizing on their preparation, structureproperty
+correlation, etc. In this context, perovskite systems such as bismuth sodium
+titanate, alkali niobates ANbO3, etc. and non-perovskites such as bismuth layer-
+structured ferroelectrics are reviewed in detail. From the above study, it is
+concluded that some lead-free compositions show stable piezoelectric responses
+even though they do not match the overall performance of PZT. This has been the
+stimulant for growing research on this subject. This topic is of current
+interest to the researchers worldwide as evidenced from the large number of
+research publications. This has motivated us to come out with a review article
+with a view that it would give further impetus to the researchers already
+working in this area and also draw the attention of the others.
+
+lead-free piezoelectric material
+lead zirconate titanate
+piezoelectric property
+perovskite system
+bismuth sodium titanate
+alkali niobate
+non-perovskite
+bismuth layer-structured ferroelectric
+piezoelectric material
+toxicity of lead
+lead free material
+structure-property correlation
+
+================================================================================
+
+W3172350939
+
+Toughening mechanisms in elastomer-modified epoxies. Some brittle epoxies can be
+toughened significantly by the addition of an elastomeric phase. A great deal of
+controversy still exists on the nature of the toughening mechanisms. In this
+work tensile dilatometry at constant displacement rates was used to determine
+whether voiding, crazing or shear banding are the deformation mechanisms.
+Diglycidyl ether-bisphenol A epoxies toughened by various levels of several
+types of carboxyl-terminated butadiene nitrile liquid rubber were studied. The
+results indicate that at low strain rates the rubber particles simply enhance
+shear deformation. At sufficiently high strain rates the rubber particles
+cavitate and subsequently promote further shear deformation. No indication of
+crazing as an important toughening mechanism is found. No significant effect of
+rubber particle size or type can be ascertained.
+
+toughening mechanism
+elastomer-modified epoxy
+brittle epoxy
+elastomeric phase
+tensile dilatometry
+constant displacement rate
+deformation mechanism
+Diglycidyl ether-bisphenol A
+carboxyl-terminated butadiene nitrile liquid rubber
+carboxyl-terminated butadiene nitrile
+liquid rubber
+butadiene nitrile liquid rubber
+strain rate
+rubber particle
+shear deformation
+cavitation
+
+================================================================================
+
+W2033304583
+
+Microcapsule induced toughening in a self-healing polymer composite.
+Microencapsulated dicyclopentadiene DCPD healing agent and Grubbs' Ru catalyst
+are incorporated into an epoxy matrix to produce a polymer composite capable of
+self-healing. The fracture toughness and healing efficiency of this composite
+are measured using a tapered double-cantilever beam TDCB specimen. Both the
+virgin and healed fracture toughness depend strongly on the size and
+concentration of microcapsules added to the epoxy. Fracture of the neat epoxy is
+brittle, exhibiting a mirror fracture surface. Addition of DCPD-filled urea-
+formaldehyde UF microcapsules yields up to 127% increase in fracture toughness
+and induces a change in the fracture plane morphology to hackle markings. The
+fracture toughness of epoxy with embedded microcapsules is much greater than
+epoxy samples with similar concentrations of silica microspheres or solid UF
+polymer particles. The increased toughening associated with fluid-filled
+microcapsules is attributed to increased hackle markings as well as subsurface
+microcracking not observed for solid particle fillers. Overall the embedded
+microcapsules provide two independent effects: the increase in virgin fracture
+toughness from general toughening and the ability to self-heal the virgin
+fracture event.
+
+microcapsule induced toughening
+self-healing polymer composite
+grubbs ru catalyst
+epoxy matrix
+self-healing
+fracture toughness
+healing efficiency
+tapered double-cantilever beam specimen
+microcapsules
+brittle neat epoxy
+mirror fracture surface
+DCPD-filled urea-formaldehyde microcapsule
+hackle marking
+silica microsphere
+fluid-filled microcapsule
+solid urea-formaldehyde polymer particle
+urea-formaldehyde polymer
+polymer particle
+subsurface microcracking
+virgin fracture toughness
+embedded microcapsule
+
+================================================================================
+
+You will now act as an AI which extracts concepts from materials science papers.
+You will only reply with the extracted concepts.
+
+Please reply OK to this prompt. My next message will be an abstract. Limit your output to 20-25 concepts.
