@@ -23,7 +23,6 @@ photocatalytic material
 photocatalytic performance
 phase transformation
 anatase to rutile phase transformation
-anatase to rutile
 thermodynamic of phase transformation
 synthesis and property
 cationic radius
@@ -212,7 +211,7 @@ mechanical property
 thermal property
 tensile strength
 tensility
-Young's modulus
+Youngs modulus
 DSC-melting point
 melting point
 scan speed
@@ -475,7 +474,7 @@ interlayer element
 isothermal solidification
 melting point
 bonding temperature
-Ni-based superalloy
+Nickel-based superalloy
 process kinetic
 bonding time
 interlayer thickness
@@ -633,9 +632,9 @@ model of the microstructure of the membranes and an explanation of its
 uniformity are presented.
 
 §
-alumina membrane
+aluminium membrane
 ultra-fine pore
-alumina film
+aluminium film
 boehmite sol
 gelation
 drying
@@ -1298,7 +1297,7 @@ high-concentration paste
 graphite graphene conversion
 pristine graphite
 electrical conductivity
-Li-ion battery
+lithium-ion battery
 lithium battery
 capacity improvement
 cyclic stability
@@ -1326,7 +1325,7 @@ interphase boundary
 radiotracer serial sectioning technique
 serial sectioning technique
 serial sectioning
-Ni segregation
+Nickel segregation
 bulk planes
 diffusion measurement
 §
@@ -1530,8 +1529,8 @@ X-ray diffractogram
 phase evolution
 electron paramagnetic resonance
 paramagnetic resonance
-Cu occupancy
-Ti lattice site
+Copper occupancy
+Titanium lattice site
 electric dipole
 electric permittivity
 absorption peak
@@ -1560,7 +1559,7 @@ discussed. The present work would provide a facile method for antibacterial
 surface modification of titanium based osteo-implants.
 
 §
-Ag-enhanced antibacterial property
+silver-enhanced antibacterial property
 antibacterial property
 MgO film
 sol-gel coating
@@ -1660,7 +1659,7 @@ enhance hot workability of the alloy.
 
 §
 incipient melting
-cast Ni base superalloy
+cast nickel base superalloy
 solution annealing
 hot workability
 local melted region
@@ -1737,7 +1736,6 @@ Alumina crucible
 Nitrogen atmosphere
 Thermogravimetric analyzer
 Anatase to rutile transformation
-Anatase to rutile
 §
 
 ================================================================================
@@ -2223,7 +2221,7 @@ Water Splitting
 Photoelectrochemical
 High Specific Surface Area
 Porous Properties
-N-doped TiO2
+nitrogen-doped TiO2
 Annealing in Ammonia Atmosphere
 Ammonia Atmosphere
 Light Absorption
@@ -2255,7 +2253,7 @@ Al2O3-Y2O3-Nb2O5 Oxide Mixture
 Oxide Mixture
 Fill Factor
 Solar Cell
-Cu-based Additive
+copper-based Additive
 additive pase
 Front Contact Formation
 Silicon Solar Cells
@@ -2474,7 +2472,6 @@ brittle fracture
 functionally graded material
 slender notch
 Weibull statistic
-Weibull
 Youngs modulus
 modulus variation
 compact tension fracture mechanics specimen
@@ -2751,8 +2748,10 @@ study indicates that it is possible to grow high quality carbon nanotube arrays
 over a cheap alumina substrate of a rough surface.
 
 §
-N-doped carbon nanotube array growth
+nitrogen-doped carbon nanotube array growth
 carbon nanotube array growth
+carbon nanotube
+array growth
 CNT
 sintered Al2O3 substrate
 nitrogen-containing carbon nanotube
@@ -3036,15 +3035,15 @@ potential candidate for infrared and upconversion laser operating.
 
 §
 highly-transparent ceramic
-Er:CaF2
-Er:CaF2 ceramic
+Er CaF2
+Er CaF2 ceramic
 transparent ceramic
 hot-pressing technique
 erbium ion doped calcium fluoride
 trivalent erbium ion
 erbium ion
 calcium floride 
-Er:CaF2 nanoparticle
+Er CaF2 nanoparticle
 co-precipitation method
 nanoparticle sintering
 lithium fluoride
@@ -3198,16 +3197,16 @@ observed by XRD.
 §
 amorphous alloy
 crystallisation behaviour
-melt spun Al-alloy
+melt spun aluminium-alloy
 melt spun alloy
-annealed Al-alloy
+annealed aluminum-alloy
 annealed alloy
 differential scanning calorimetry
 X-ray diffractometry
 crystallisation stage
 fcc-Al formation
 bcc phase formation
-La concentration
+Lanthanum concentration
 micro hardness change
 §
 
@@ -3237,7 +3236,7 @@ the mechanical properties of cast Mg alloys.
 §
 Mg alloy
 crystal structure refinement
-Nb-based heterogeneous substrate
+Niobium-based heterogeneous substrate
 lightness
 high specific strength
 transportation industry
@@ -3528,7 +3527,7 @@ Anisotropic stress
 corrosion-induced stress
 macro tensile stress
 tensile stress
-Fe single crystal
+iron single crystal
 molecular dynamic
 Stress corrosion cracking
 crystallographic direction
@@ -3716,7 +3715,7 @@ product. The effect parameters on the growth such as Pd2+ concentration and
 temperature were also investigated.
 
 §
-cu particle growth
+copper particle growth
 particle growth
 semibatch process
 Monodispersed particle
@@ -3899,7 +3898,7 @@ estimated.
 
 §
 binary intermetallic system
-Li intermetallic
+lithium intermetallic
 tight binding linear muffin tin orbital method
 tight binding linear muffin tin orbital
 lattice constant
@@ -3993,10 +3992,10 @@ iodine atom adsorption
 charge transport performance
 charge transport
 cation site
-K-doped CZTS
-V-doped CZTS
-Ir-doped CZTS
-Pt-doped CZTS
+Potassium-doped CZTS
+Vanadium-doped CZTS
+Iridium-doped CZTS
+Platinium-doped CZTS
 adsorption energy
 desorption energy
 catalytic activity

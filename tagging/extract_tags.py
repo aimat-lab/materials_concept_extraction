@@ -9,6 +9,10 @@ def extract_tags(lines):
     return lines[start_index:end_index]
 
 
+def clean_line(line):
+    return line.strip().lower().replace("-", " ")
+
+
 def main(input_file, output_file, abstract_file, separator_length=80):
     with open(input_file) as f:
         text = f.read()
@@ -19,7 +23,7 @@ def main(input_file, output_file, abstract_file, separator_length=80):
 
     for work in works_data:
         lines = [
-            line.strip().lower() for line in work.split("\n") if line.strip()
+            clean_line(line) for line in work.split("\n") if line.strip()
         ]  # remove empty lines, clean, lower case
 
         if len(lines) < 3:
