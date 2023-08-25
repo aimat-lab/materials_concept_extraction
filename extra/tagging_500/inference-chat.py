@@ -98,7 +98,7 @@ def main(
 
     df = df[["id", "generated"]]
     df.generated = df.generated.apply(
-        lambda t: t.split("Assistant:")[1].strip()
+        lambda t: t.split("Assistant: ")[1].strip()
     )  # postprocess, only keep generated text
     current_time = time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime())
     OUTPUT_PATH = f"./data/inference_{llama_variant}/{model_id}/"

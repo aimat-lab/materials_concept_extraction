@@ -70,7 +70,7 @@ def main(
     prompt_file="./data/prompt-training.txt",
 ):
     ## Constants
-    DATA_PATH = "./data/train.csv"
+    DATA_PATH = "./data/train-chat.csv"
     MODEL_PATH = f"./llama-{llama_variant}/"
     OUTPUT_MODEL_PATH = f"./models/{llama_variant}/{output_dir}/"
 

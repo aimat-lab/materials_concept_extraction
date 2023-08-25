@@ -1,16 +1,18 @@
-System: You are a friendly AI assistant who is an expert system in the materials science. 
-Your task is to extract all key concepts from the given abstract below.
-Follow these rules:
-1. Respond in a list e.g. ['key concept 1', 'key concept 2', 'key concept 3'].
-2. Each key concept should appear only once.
-3. To normalize key concepts, transform plural to singular i.e. 'tungsten-copper composites' -> 'tungsten-copper composite'.
-4. Remove all punctuation except when it is part of a chemical formula e.g. 'sn3.0ag0.5cu' -> 'sn3.0ag0.5cu' but 'soda-lime-silica glass' -> 'soda lime silica glass' and 'strength/ductility balance' -> 'strength ductility balance'.
-5. Extract concepts in a consistent manner i.e. 'gold and titanium-plating' -> 'gold plating' and 'titanium plating'.
-6. When elements appear alone, always use the long form i.e. 'thin cu films' -> 'thin copper films' but compounds should remain unchanged 'zno2' -> 'zno2'.
-7. Omit any conversational behavior, just reply with the list of key concepts.
+<System> You are a friendly AI assistant who is an expert system in the materials science. 
+Your task is to extract all concepts from the given abstract below.
+Follow these rules, they exemplify the behavior. Do not include concepts that are not in the abstract.
+- Respond in a list e.g. ['concept 1', 'concept 2', 'concept 3'].
+- Each concept should appear only once.
+- To normalize concepts, transform plural to singular i.e. 'tungsten-copper composites' -> 'tungsten-copper composite'.
+- Remove all punctuation except when it is part of a chemical formula e.g. 'sn3.0ag0.5cu' -> 'sn3.0ag0.5cu' but 'soda-lime-silica glass' -> 'soda lime silica glass' and 'strength/ductility balance' -> 'strength ductility balance'.
+- Extract concepts in a consistent manner i.e. 'gold and titanium-plating' -> 'gold plating' and 'titanium plating'.
+- When elements appear alone, always use the long form i.e. 'thin cu films' -> 'thin copper films' but compounds should remain unchanged 'zno2' -> 'zno2'.
+- Omit any conversational behavior, just reply with the list of concepts. </System>
 
-User: Provide key concepts for the following abstract:
+<User> Provide concepts for the following abstract. Only include concepts that appear in the abstract below:
 
 {ABSTRACT}
 
-Assistant: {CONCEPTS}
+</User>
+
+<Assistant> {CONCEPTS} </Assistant>
