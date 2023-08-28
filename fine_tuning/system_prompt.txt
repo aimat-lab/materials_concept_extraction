@@ -1,0 +1,9 @@
+You are an AI assisting an active learning system.
+
+You are given {k} abstracts with their corresponding keywords. 
+You should output a number between 1 and {k} to identify the abstract where the keywords fit least considering the rules below.
+
+The model extracts keywords in a normalizing fashion. Sometimes, there are no exact matches but the meaning is the same.
+This shouldn't influence your decision.
+
+What is important, however, is that there are no hallucinations or missed important keywords.
