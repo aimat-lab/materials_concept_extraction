@@ -7,11 +7,14 @@ import pandas as pd
 import fire
 import os
 
-os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:512" # in order to reduce crashes due to too much memory allocation
+os.environ[
+    "PYTORCH_CUDA_ALLOC_CONF"
+] = "max_split_size_mb:512"  # in order to reduce crashes due to too much memory allocation
+
 
 def get_model_and_tokenizer(llama_variant, model_id):
     tokenizer = LlamaTokenizerFast.from_pretrained(
-        f"./llama-{llama_variant}/", return_tensors="pt", paddding_side="left"
+        f"./llama-{llama_variant}/", return_tensors="pt", padding_side="left"
     )
     tokenizer.pad_token_id = 0
 
@@ -82,6 +85,7 @@ def main(
     input_file="data/works.csv",
     batch_size=25,
     max_new_tokens=512,
+    initial_create=True,
 ):
     settings = {
         "llama_variant": llama_variant,
@@ -102,8 +106,9 @@ def main(
 
     data = get_prepared_data(input_file, start, n)
 
-    os.makedirs(OUTPUT_PATH, exist_ok=True)
-    create_output_file(OUTPUT_FILE)
+    if initial_create:
+        os.makedirs(OUTPUT_PATH, exist_ok=True)
+        create_output_file(OUTPUT_FILE)
 
     for i in range(0, len(data), batch_size):
         batch = get_batch(data, i, batch_size)
