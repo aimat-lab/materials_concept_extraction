@@ -37,7 +37,7 @@ def main(
     MODEL_PATH = f"./models/{llama_variant}/{model_id}"
 
     tokenizer = LlamaTokenizerFast.from_pretrained(
-        f"./llama-{llama_variant}/", return_tensors="pt", paddding_side="left"
+        f"./llama-{llama_variant}/", return_tensors="pt", padding_side="left"
     )
     tokenizer.pad_token_id = 0
 

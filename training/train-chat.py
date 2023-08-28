@@ -114,6 +114,8 @@ def main(
                 + "</s>"
             )
 
+            open("log.log", "a").write(text + "\n")
+
             # Tokenize text and tags separately
             text_encodings = tokenizer(
                 text,
