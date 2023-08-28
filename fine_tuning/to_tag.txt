@@ -116,7 +116,7 @@ sample freezing
 strain rate
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -132,23 +132,27 @@ structural analysis. To measure the specific magnetization as a function of
 temperature in the range of, the pondero-motive method was used.
 
 §
+$ni$ nanowire
 alumina membrane
 atomic force microscopy
 electrochemical processing
 magnetization measurement
 microstructure
+membrane
+nanowire composite morphology
 nanowire deposition
 nanowire fabrication
 nanowire filling
 pondero motive method
 scanning electron microscopy
 structural analysis
-template assisted nanowire fabrication
+template assisted $ni$ nanowire fabrication
+$ni$ nanowire fabrication
 through pore alumina membrane
 x ray structural analysis
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -170,7 +174,9 @@ magnesium alloys.
 
 §
 accumulated strain
+as cast magnesium alloy
 az91d magnesium alloy
+conventional extrusion
 compound extrusion
 elongation to fracture
 equal channel angular extrusion
@@ -186,7 +192,7 @@ tensile strength
 yield strength
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -210,13 +216,12 @@ cold crimping
 cone barrel
 flange
 heat treatment
-heat treatment
 heat treatment performance
 hot forming
 hot forming process
 thermal cycling
-ti alnb alloy
-ti alnb alloy thin walled component
+ti2alnb alloy
+ti2alnb alloy thin walled component
 §
 
 [n]   
@@ -244,7 +249,8 @@ specimens geometry and boundary conditions.
 
 §
 boundary condition
-boundary condition (sealing configuration)
+boundary condition sealing configuration
+sealing configuration
 drying shrinkage
 drying shrinkage test procedure
 free shrinkage
@@ -255,7 +261,7 @@ surface area to volume ratio
 test procedure
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -287,12 +293,15 @@ atomic force microscopy
 bismuth oxychloride nanosheet
 blood analyte detection
 catalytic interface
-detection of biomolecule
+biomolecule detection 
 highly thin bismuth oxychloride nanosheets
 human blood sample
 layered bismuth oxychloride nanosheet
 limit of detection
+label free binding
+graphene like nanosheet
 microchip based sensor platform
+microchip integration
 novel catalytic interface
 square morphology
 transmission electron microscopy
@@ -300,7 +309,7 @@ ultrathin 2d bismuth oxychloride nanosheet
 uric acid detection
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -371,20 +380,21 @@ hierarchical structure
 hydrogenated material
 laser powder bed fusion
 low temperature phase
-lpbf
+micro X-ray computed tomography
+microscopy
 mechanical property
 microstructural change
 microstructure refinement
+neutron diffraction
 performance characteristic
 pore densification
 porosity fraction
 surface energy
 thermo hydrogen
 thermo hydrogen refinement of microstructure
-thermo hydrogen refinement of microstructure
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -406,10 +416,13 @@ enhancement of basalt fiber into the CFRP significantly influence the mechanical
 properties of interply hybrid composites.
 
 §
-basalt fibers
+basalt fiber
+basalt fiber content
 basalt layer
-carbon fibers
-epoxy laminates
+carbon fiber
+carbon fiber reinforced epoxy laminate
+carbon basalt epoxy hybrid composite material
+epoxy laminate
 fracture strain
 hybrid epoxy composite laminate
 interply hybrid composite
@@ -418,10 +431,11 @@ mechanical property
 resin transfer molding
 strength and stiffness
 tensile behavior
+tensile strength
 vacuum assisted resin transfer molding
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -454,6 +468,7 @@ conventional bleaching and desizing method.
 §
 absorptivity
 areal weight
+bleaching hydrogen peroxide bleaching
 conventional bleaching
 conventional desizing
 ecofriendly bleaching
@@ -465,13 +480,14 @@ ozone bleaching
 ozone desizing
 ozone dose
 terry fabric
+towel fabric
 water absorption
 water pickup
 whiteness
 whiteness
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -530,8 +546,9 @@ compressive stress
 heating process
 high temperature chamber
 internal oxidation
+in situ high temperature study
 isothermal growth
-ni no system
+ninino system
 oxidation time
 oxide scale
 pilling bedworth ratio
@@ -544,7 +561,7 @@ thermal stress
 x ray diffraction
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -582,78 +599,33 @@ porous Si3N4 ceramics reached 2.81 GPa. Fracture toughness of porous Si3N4
 
 §
 bridging
-bridging
-bridging
-crack deflection
-crack deflection
 crack deflection
 diffusion
-diffusion
-diffusion
-element distribution
-element distribution
 element distribution
 fracture toughness
-fracture toughness
-fracture toughness
-fusion
-fusion
 fusion
 graphene
 hardness
-hardness
-hardness
 incomplete sintering
-incomplete sintering
-incomplete sintering
-incomplete sintering
-incomplete sintering
-mass transfer
-mass transfer
 mass transfer
 multilayer graphene
 multilayer graphene and whisker reinforced porous si3n4 ceramic
-multilayer graphene and whisker reinforced porous si3n4 ceramic
-multilayer graphene and whisker reinforced porous si3n4 ceramic
-phase constitution
 phase constitution
 phase constitution
 porous si3n4
-porous si3n4
-porous si3n4
 porous si3n4 ceramic
-porous si3n4 ceramic
-porous si3n4 ceramic
-porous si3n4 ceramic
-porous si3n4 ceramic
-porous si3n4 ceramic
-porous si3n4 ceramics
-porous si3n4 ceramics
 porous sien
 pull out
-pull out
-pull out
 scanning electron microscope
-scanning electron microscope
-scanning electron microscope
-spark plasma incomplete sintering
-spark plasma incomplete sintering
 spark plasma incomplete sintering
 spark plasma sintering
-spark plasma sintering
-sparks plasma
-sparks plasma
-sparks plasma
+spark plasma
 whisker reinforced porous sien
 whisker reinforcement
-whisker reinforcement
-whisker reinforcement
-x ray diffraction
-x ray diffraction
 x ray diffraction
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -674,18 +646,27 @@ boundaries between the flattened particles composing the layer.
 
 §
 amorphous layer
+amorphous deposited layer
 crystallization boundary
+copper substrate
+cubic Fe3Si
+differential scanning calorimetry
+exothermic reaction peak
 flattened particle
+FeBSi alloy
 glass formability
 low pressure plasma spraying
+metastable tetragonal Fe3B
 plasma sprayed layer
 plasma spraying
 powder alloy
+tetragonal Fe2B
+quenched layer
 water cooled steel substrate
 water cooled substrate
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -708,6 +689,7 @@ effect on the failure load. These results allowed the proposal of design
 principles for repairing CFRP structures.
 
 §
+aero structure
 adhesive bonded repair
 adhesive bonding
 advanced assembly joining and repair technology
@@ -724,12 +706,14 @@ grind tool roughness
 repair efficiency
 sander effect
 sanding
+sander sanding
 scarf angle
 scarf repair
 tensile strength
+grit number
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -763,8 +747,10 @@ square wave voltammetry.
 §
 buffer solution
 chronoamperometry
+catalytic activity
 cyclic voltammetry
 cyclodextrin attachment
+cyclodextrin
 differential pulse voltammetry
 electroactivity
 electrocatalytical behavior
@@ -781,7 +767,7 @@ square wave voltammetry
 vitamin c
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -799,6 +785,9 @@ outlined.
 §
 bonded magnet
 coercivity
+indium alloy
+tin alloy
+solder alloy
 energy product
 magnetic property
 magnetic property
@@ -809,9 +798,11 @@ remanence
 samarium cobalt alloy powder
 soft metal alloy powder
 soft metal bonded samarium cobalt permanent magnet
+SmCo5
+permanent magnet
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -837,13 +828,12 @@ the interconnectivity has not been broken. This produced reasonably high
 ductility for the 20241.5TiC nanocomposite.
 
 §
-al grain boundary
-alloys
+$al$ grain boundary
 average cell size
 circle network
+casting method
 composites
 constraint strengthening
-deformation behavior
 deformation behavior
 elongation
 high temperature mechanical property
@@ -854,6 +844,7 @@ mechanical property
 microstructure design
 network architecture
 oval network
+TiC nanocomposite
 tensile strength
 tic nanoparticle
 tic network architecture

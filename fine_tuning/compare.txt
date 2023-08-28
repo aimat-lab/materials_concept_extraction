@@ -618,7 +618,7 @@ mechanical properties
 microstructure design
 network architecture
 oval
-strengthening mechanism
+strengthening mechaanism
 tensile test
 ultimate tensile strength
 §  
