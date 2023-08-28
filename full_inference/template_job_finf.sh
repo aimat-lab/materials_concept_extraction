@@ -9,9 +9,9 @@
 #SBATCH --mail-user=fb6372@partner.kit.edu
 
 module load devel/cuda/11.8
-​
+
 source $HOME/miniconda3/etc/profile.d/conda.sh
-​
+
 python3 -u ../full_inference.py \
  --llama_variant 13B \
  --model_id full-finetune \
