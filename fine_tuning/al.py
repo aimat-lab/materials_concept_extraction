@@ -1,6 +1,7 @@
 from fire import Fire
 import pandas as pd
 import os
+from tqdm import tqdm
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -11,7 +12,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 openai.organization = os.getenv("OPENAI_ORG")
 
 
-datapoint = "({i}) [A] {abstract} [/A]\n[K] {keywords} [/K]\n"
+datapoint = "({i}) [A] {abstract} [/A]"
 
 
 def format_prompt(prompt_file, **kwargs):
@@ -33,7 +34,7 @@ def perform_request(system_prompt, prompt):
             },
         ],
         temperature=0.0,
-        max_tokens=100,
+        max_tokens=512,
     )
 
     return r["choices"][0]["message"]["content"]
@@ -41,42 +42,28 @@ def perform_request(system_prompt, prompt):
 
 def main(
     input_file="",
-    batch_size=5,
-    start_iteration=2,
-    end_iterations=4,
+    start=0,
+    end=10,
 ):
-    data = pd.read_csv(input_file)
+    data = pd.read_csv(input_file).iloc[start:end]
 
-    for index in range(start_iteration * batch_size, end_iterations * batch_size, batch_size):
-        batch = data.iloc[index : index + batch_size]
+    l = []
 
-        batch_datapoints = [
-            datapoint.format(
-                i=i + 1,
-                abstract=abstract,
-                keywords=keywords,
-            )
-            for i, (abstract, keywords) in enumerate(
-                zip(batch.abstract, batch.concepts)
-            )
-        ]
+    for id, abstract in tqdm(zip(data.id, data.abstract), total=len(data)):
 
-        batch_datapoints = "\n".join(batch_datapoints)
-
-        sys_prompt = format_prompt("fine_tuning/system_prompt.txt", k=batch_size)
-        user_prompt = format_prompt("fine_tuning/prompt.txt", data=batch_datapoints)
-
-        print(
-            sys_prompt,
-            user_prompt
-        )
+        sys_prompt = format_prompt("fine_tuning/system_prompt.txt")
+        user_prompt = format_prompt("fine_tuning/prompt.txt", data=abstract, k=len(abstract))
 
         response = perform_request(
             sys_prompt,
             user_prompt,
         )
 
-        print("===>", response)
+        l.append({"id": id, "openai": response})
+
+    df = pd.DataFrame(l)
+    df.to_csv(f"fine_tuning/openai_{start}-{end}.csv", index=False)
+
 
 
 if __name__ == "__main__":
