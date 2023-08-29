@@ -6,14 +6,15 @@ TAG_DELIMITER = "§"
 def extract_tags(lines):
     start_index = lines.index(TAG_DELIMITER) + 1
     end_index = lines.index(TAG_DELIMITER, start_index)
-    return lines[start_index:end_index]
+    unfiltered = lines[start_index:end_index]
+    return [l for l in unfiltered if not l.startswith("#")]
 
 
 def clean_line(line):
     return line.strip().lower().replace("-", " ")
 
 
-def main(input_file, output_file, abstract_file, separator_length=80):
+def main(input_file, output_file, abstract_file, separator_length=80, exclude_nos=False):
     with open(input_file) as f:
         text = f.read()
 
@@ -34,6 +35,13 @@ def main(input_file, output_file, abstract_file, separator_length=80):
             tags = extract_tags(lines)
         except ValueError:
             tags = []
+
+        if exclude_nos:
+            no_lines = [l for l in lines if "[n]" in l]
+            if len(no_lines) > 0:
+                continue
+        
+
         data.append(dict(id=work_id, tags=",".join(tags)))
 
     tags = pd.DataFrame(data)
@@ -59,7 +67,14 @@ if __name__ == "__main__":
         help="Path to the abstract file",
         default="data/materials-science.elements.works.csv",
     )
+    parser.add_argument(
+        "--exclude-nos",
+        help="Whether the [y/n] system was used during tagging",
+        default=False,
+    )
+    
+
 
     args = parser.parse_args()
 
-    main(args.input_file, args.output_file, args.abstract_file, args.separator_length)
+    main(args.input_file, args.output_file, args.abstract_file, args.separator_length, args.exclude_nos)
