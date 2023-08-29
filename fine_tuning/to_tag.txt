@@ -891,34 +891,24 @@ biological recognition
 # biologically safe
 # biomaterials
 cell proliferation
-# clinically
 collagen formation
-# conventional bandages
 cutaneous wound covering
-# dimensional homology
+dimensional homology
 ecm secretion
 electrospun fiber
 electrospun fiber mat
-# electrospun fiber mats
-# engineered skin coverings
-# excellent environment for healing
-# expensive final cost
-# extensive and deep wounds
+engineered skin covering
+healing environment 
 extracellular matrix component
-# fatty acid derivative
+fatty acid derivative
 full thickness incisional wound healing
-# full-thickness incisional wound healing
 growth factor pdgf bb
-# growth factor pdgf-bb
-# heal
-# healthy skin
-# high survival rate
-# in vitro toxicity
-# in vivo side effects
+in vitro toxicity
+in vivo side effects
 incisional wound healing
-# intensive labor
+pa-6 chain modification 
 # long-term cutaneous wound covering
-# modification of pa-6 chains
+# modification of s
 # nanofibrillar matrices
 nanostructured scaffold
 # nanostructured scaffolds
@@ -926,26 +916,20 @@ nanostructured scaffold
 # new functional tissues
 pdgf bb
 physical support
-polyamide 6 mat
-# polyamide-6 pa-6
-# polymeric scaffolds
-# rat model
-# requirements of wound care
-# scaffold surface free energy
-# simple to implement
-# simulated conditions
+polyamide-6 mat
+polyamide-6 pa-6
 skin regeneration
 soybean modified polyamide 6 mat
-# soybean-modified pa-6
+soybean modified pa-6
 # soybean-modified polyamide-6 mats
 sterilization process
 surface free energy
-# topical dermal covering
+topical dermal covering
 # unmodified pa-6
 wound covering
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -983,6 +967,7 @@ charge removal
 coulomb interaction
 # cubo2
 density functional theory
+density functional theory with local density approximation 
 # dft-lda
 dielectric function
 direct band gap
@@ -990,6 +975,7 @@ direct band gap
 electronic property
 # elk code
 exchange correlation
+exchange correlation potential
 exchange functional
 # first-principles study
 # gwa
@@ -999,26 +985,21 @@ lattice parameter optimization
 # lda+u
 local density approximation
 modified becke johnson
-# on-site coulomb interaction
-# optical conductivity
+on site coulomb interaction
+optical conductivity
 # optical properties
 optical property
 p type transparent conducting oxide
 primitive unit cell
 quasi particle approximation
-# quasi-particle approximation
 random phase approximation
-# rpa
-# tb09
-# tddft
 time dependent density functional theory
-# time-dependent density functional theory
 tran and blahas modified becke johnson
 # tran and blahas modified beckejohnson exchangecorrelation potentials
 transparent conducting oxide
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -1039,37 +1020,37 @@ aluminium alloys.
 
 §
 alloy composition
-# alsicu aluminium alloys
-aluminium alloys
+alsicu aluminium alloy
+aluminium alloy
 # balanced iron
-balanced iron and manganese
+balanced iron
+balanced manganese
 # capability
 # effectiveness
 # efficiency
-extra mn addition
-fe rich intermetallics
+extra $mn$ addition
+$fe$ rich intermetallic
 # fe-rich intermetallics
 # fundamentals
 # high quality
-high quality secondary aluminium alloys
+high quality secondary aluminium alloy
 # industrial practice
 iron contamination
 iron removal
 liquid melt
 # manganese
-processing temperature
 # processing temperatures
 # recycling
-recycling aluminium alloys
-scrapped materials
-# secondary aluminium alloys
+recycling aluminium alloy
+scrapped material
+secondary aluminium alloy
 # sediment solid
-sediment solid fe rich intermetallics
-thermodynamics assessment
-thermodynamics calculation
+sediment solid $fe$ rich intermetallic
+thermodynamic assessment
+thermodynamic calculation
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -1087,8 +1068,8 @@ strength of the composites increased with increased magnesium content, while
 elongation remained almost constant 10%.
 
 §
-# alal2o3 composites
-# alumina-fiber-reinforced aluminum matrix composites
+alal2o3 composite
+alumina fiber reinforced aluminum matrix composite
 aluminum matrix composite
 # elongation
 fracture surface
@@ -1100,7 +1081,6 @@ matrix alloy
 # matrix alloys
 # mechanical properties
 mechanical property
-microstructure
 optical microscopy
 porosity
 pressure infiltration casting
@@ -1110,7 +1090,7 @@ tensile test
 # tensile tests
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -1157,15 +1137,14 @@ calculated from the linear parts of the B0 vs q/kT plots for both samples. The
 values of the effective Richardson constant A and mean BH were obtained ...
 
 §
-alignonan quaternary alloy
-# alingan quaternary alloy
+alingan quaternary alloy
 barrier height
 barrier inhomogeneity
 current conduction mechanism
 # current-conduction mechanism
 # effective richardson constant
 gaussian distribution
-# ideality factor
+ideality factor
 # iv-t characteristics
 # linear parts
 # mean value
@@ -1173,10 +1152,10 @@ metal semiconductor interface
 # metal/semiconductor interface
 # modified richardson plots
 # ni/ptschottky contacts
-nickel pt schottky contact
+$ni$ $pt$ schottky contact
 richardson constant
 richardson plot
-# schottky barrier inhomogeneities
+schottky barrier inhomogeneity
 schottky contact
 # standard deviation
 # te theory
@@ -1188,7 +1167,7 @@ zero bias barrier height
 # zero-bias barrier height
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -1269,8 +1248,8 @@ fluence
 leakage current
 neutron irradiation
 # neutrons
-# nuclear reactor neutrons
-# oxygen enrichment
+nuclear reactor neutron
+oxygen enrichment
 oxygen rich substrate
 # oxygen-rich substrates
 radiation effect
@@ -1318,9 +1297,7 @@ enhanced adhesion
 hard surface
 # hard surfaces
 # implications
-johnson kendall & roberts
-johnson kendall roberts
-# johnson-kendall-roberts jkr contact theory
+johnson kendall roberts contact theory
 # limitations
 low roughness
 material metals
@@ -1328,7 +1305,7 @@ material metals
 # model contact system
 # observations
 # predictions
-# rigid substrate
+rigid substrate adhesion
 smooth surface
 surface roughness
 surface roughness effect
@@ -1336,7 +1313,7 @@ surface roughness effect
 # validity
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -1356,7 +1333,7 @@ to the ceramic was a Ti-oxide, TiO. orig.
 
 §
 active metal brazing
-ag cu ti filler metal
+$ag$ $cu$ $ti$ filler metal
 # ag-35cu-1.65ti filler metal
 biomedical application
 # biomedical applications
@@ -1364,8 +1341,8 @@ brazing in vacuum
 ceramic metal joint
 # ceramic strength
 # ceramic-metal joints
-cu ti intermetallic
-cu ti o compound
+cuti intermetallic
+cutio compound
 # cuti intermetallics
 # cutio compounds
 epma
@@ -1375,7 +1352,6 @@ joining tetragonal zirconia
 layered microstructure
 microstructural characterization
 # minutes hold
-reaction product
 # reaction products
 sem
 # strength matching
@@ -1394,7 +1370,7 @@ zirconia titanium joint interface
 # zirconia-titanium joint interfaces
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -1418,7 +1394,7 @@ respectively.
 
 §
 # activation energy
-as deposited ni/ngasb diode
+as deposited $ni$ gasb diode
 # as-deposited ni/n-gasb diode
 barrier height
 barrier height inhomogeneity
@@ -1432,19 +1408,19 @@ junction characteristic
 # junction characteristics
 mean barrier height
 # modified richardson plot
-ni ngasbschottky diode
+$ni$ gasb schottky diode
 # ni/n-gasb schottky diode
 # richardson constant
 schottky barrier
 series resistance
 standard deviation
-temperature dependent current voltage
+temperature dependent current voltage measurement
 # temperature-dependent current-voltage measurements
 thermionic emission
 # thermionic emission theory
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -1477,9 +1453,8 @@ current density redistribution
 electroless plating
 electromagnetic interaction
 electromagnetic interaction between rgo and finemet ribbon
-finemet
 finemet ribbon
-# finemet/rgo composite ribbons
+finemet and rgo composite ribbon
 giant magneto impedance analysis
 giant magneto impedance effect
 # giant magneto-impedance effect
@@ -1506,7 +1481,7 @@ x ray diffraction
 # x-ray diffraction
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -1543,22 +1518,18 @@ geology
 phase analysis
 qualitative xrd phase analysis
 # qualitative xrd phase-analysis
-quantitative
 quantitative phase analysis
 # quantitative phase-analysis
-# r c space group
-# r space group
+r c space group
+r space group
 reitveld quantitative
 reitveld quantitative xrd phase analysis
 # reitveld quantitative xrd phase-analysis
-relative error
 # relative errors
 rietveld method
 rietveld refinement method
-selected composition
 # selected compositions
 # set of standard phase-mixtures
-space group
 # sr0.5+ x sb1 x fe1+ x po4300.50sbfepo43
 # sr0.5+xsb1xfe1+xpo430
 sro.5+ x sb1 x fe1+ x po430 < x < 0.50 system
@@ -1572,7 +1543,7 @@ xrd phase analysis
 # xrpd technique
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -1627,10 +1598,12 @@ phenomenological theory.
 # 40hz -1mhz
 # 80k
 ac conductivity
+hopping conduction mechanism of ceramic
+impedance spectroscopy analysis of ceramic
 charge carrier
 # charge carriers
 correlated barrier hopping model
-dc conductance
+dc conductance analysis
 # dc conductance analysis
 # debye-like relaxation
 # detailed investigation
@@ -1639,8 +1612,7 @@ dielectric constant curve
 frequency interval
 hopping conduction mechanism
 # impedance data
-impedance spectra
-impedance spectroscopy
+impedance spectroscopy analysis
 # impedance spectroscopy analyses
 jonscher law
 koops phenomenological theory
@@ -1666,7 +1638,7 @@ temperature range
 thermally activated conduction
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -1710,6 +1682,7 @@ inorganic track membrane
 # inorganic track membranes
 # ion irradiation
 ion track
+ion track in polymer
 ion track detector
 # ion tracks
 latent fission fragment track
@@ -1725,7 +1698,6 @@ microfiltration technology
 mineral
 # natural minerals
 particle detection
-polymer
 polymeric track membrane
 # polymeric track membranes
 # polymers
@@ -1744,7 +1716,7 @@ transmission electron microscope
 young
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -1768,9 +1740,9 @@ and vibropeened specimen. Assets and drawbacks are shown and discussed.
 
 §
 # assets
-# benchmark shot peening
+benchmark shot peening
 blade integrated disk
-# blade integrated disk blisk rotors
+blade integrated disk blisk rotor
 # blades
 blisk rotor
 # blisk-rotors
@@ -1796,7 +1768,7 @@ improving hcf strength
 # individual blisks
 # insight
 # limits
-low space between blisks
+low space between blisk
 # manufacturing
 mechanical surface treatment
 # mechanical surface treatment technologies
@@ -1807,11 +1779,11 @@ residual stress depth distribution
 surface roughness
 surface treatment technology
 # technology
-# vibropeened specimen
+vibropeened specimen
 weld heat treatment
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -1831,7 +1803,7 @@ volume fraction play primary roles in governing the mechanical response.
 
 §
 # activation of the slip systems
-# crystal plasticity
+crystal plasticity
 crystal plasticity finite element model
 crystallographic orientation
 # crystallographic orientations
@@ -1850,18 +1822,18 @@ orientation dependent strain hardening
 phase distribution
 # phase distributions
 # slip
-slip and twinning interaction
+slip interaction
 slip system activation
 strain hardening rate
 # strain hardening rates
 strain localisation
 strain rate
 # texture
-# twinning interactions
+twinning interaction
 # volume fractions
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -1890,10 +1862,8 @@ workability of concrete.
 cment replacement
 # compatible slump values
 compressive strength
-concrete
 concrete mix
-concrete used as partial cement replacement
-# curing period
+curing period
 # cylindrical specimens
 # experimental analysis
 # grades of concrete
@@ -1902,7 +1872,7 @@ concrete used as partial cement replacement
 # m15
 # m20
 # maximum strength
-# normal strength concrete
+normal strength concrete
 # nsc
 # outcome
 # partial replacement
@@ -1913,7 +1883,6 @@ concrete used as partial cement replacement
 slump value
 strength increase
 # study
-sugarcane bagasse
 sugarcane bagasse ash
 sugarcane bagasse ash cement replacement
 sugarcane bagasse ash in concrete
@@ -1922,7 +1891,7 @@ sugarcane bagasse ash in concrete
 workability of concrete
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
