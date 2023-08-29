@@ -9,7 +9,12 @@ data = pd.read_csv("fine_tuning/0000-1000.csv")
 
 NEWLINE = '\n'
 
-def create_work(id, abstract, keywords):
+def create_work(id, abstract, keywords, openai):
+    diff = keyword_diff(keywords, openai)
+
+    all_keywords = sorted(set(eval(keywords) + diff))
+    all_keywords = ["# " + k if k in diff else k for k in all_keywords]
+
     return textwrap.dedent(f"""
 {"=" * 80}
 
@@ -18,29 +23,24 @@ def create_work(id, abstract, keywords):
 {NEWLINE.join(textwrap.wrap(abstract, width=80))}
 
 §
-{NEWLINE.join(sorted(eval(keywords)))}
+{NEWLINE.join(all_keywords)}
 §
 
 [n]   
 """)
 
-def create_tags(id, keywords):
-    return textwrap.dedent(f"""
-{"=" * 80}
 
-{id}
+def keyword_diff(keywords, openai):
+    keywords = [l.lower() for l in eval(keywords)]
+    openai = [l.lower() for l in eval(openai)]
+    return sorted(set(openai) - set(keywords))
 
-§
-{NEWLINE.join(sorted(eval(keywords)))}
-§  
-""")
-
-with open("fine_tuning/tagging.txt", "w") as f:
-    for id, abstract, keywords in zip(data.id, data.abstract, data.concepts):
-        f.write(create_work(id, abstract, keywords))
 
 comp_data = pd.read_csv("fine_tuning/openai_100.csv")
 
-with open("fine_tuning/compare.txt", "w") as f:
-    for id, keywords in zip(comp_data.id, comp_data.openai):
-        f.write(create_tags(id, keywords))
+m = data.merge(comp_data, on="id", how="inner")
+
+with open("fine_tuning/tagging.txt", "w") as f:
+    for id, abstract, keywords, openai in zip(m.id, m.abstract, m.concepts, m.openai):
+        f.write(create_work(id, abstract, keywords, openai))
+
