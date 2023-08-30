@@ -9,6 +9,7 @@ from peft import (
     LoraConfig,
     TaskType,
     get_peft_model,
+    PeftModel,
     prepare_model_for_int8_training,
 )
 import torch
@@ -45,8 +46,10 @@ set_seed(seed)
 
 def main(
     llama_variant="7B",
+    train_file="./data/train.csv",
     output_dir="finetuned",
-    size_train_dataset=0.9,
+    continue_finetuning=False,
+    size_train_dataset=1,
     tokenizer_max_length=1024,
     num_epochs=2,
     weight_decay=0.005,
@@ -54,7 +57,7 @@ def main(
     lr=1e-3,
 ):
     ## Constants
-    DATA_PATH = "./data/train.csv"
+    DATA_PATH = train_file
     MODEL_PATH = f"./llama-{llama_variant}/"
     OUTPUT_MODEL_PATH = f"./models/{llama_variant}/{output_dir}/"
 
@@ -133,8 +136,13 @@ def main(
         inference_mode=False,
     )
 
-    model = prepare_model_for_int8_training(model)
-    model = get_peft_model(model, config)
+    model = prepare_model_for_int8_training(model) # inclued in both cases?
+
+    if continue_finetuning:
+        model = PeftModel.from_pretrained(model, OUTPUT_MODEL_PATH) # load from finetuned model
+    else:
+        model = get_peft_model(model, config)
+
     model.print_trainable_parameters()
 
     ## Arguments
