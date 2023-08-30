@@ -92,9 +92,9 @@ def main(
             text = (
                 "<s>"
                 + row["abstract"]
-                + "\n\n\n###\nKEYWORDS:\n###\n\n\n"
+                + "#KEYWORDS#"
                 + str(row["tags"].split(","))
-                + "</s>"
+                + "</s></s>"
             )
 
             # Tokenize text and tags separately
