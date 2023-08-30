@@ -1912,31 +1912,29 @@ vacuum.
 
 §
 # 15 vol.% sic particulates
-2618 al alloy
-air
-al alloy
-closure level
+$al$ alloy
 # closure levels
 # corrosion
 corrosion fatigue
 crack growth rate
 crack opening displacement
 # crack-opening displacements
-# fatigue crack growth resistance
+fatigue crack growth resistance
 fatigue crack propagation
-high vacuum
+fatigue crack propagation in air
+fatigue crack propagation in salt water
+fatigue crack propagation in high vacuum
 metal matrix composite
 particulate reinforcement
-salt water
+particulate reinforced alloy
 sic particulate
 # sic particulates
-spray formed
+spray formed $al$ alloy
 spray formed particulate reinforced metal matrix composite
-# spray-formed particulate-reinforced metal matrix composite
 # unreinforced alloy
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -1964,11 +1962,11 @@ dislocation model
 dislocation structure
 # dislocations
 # effective stress
+fatigue failure under stress
 fatigue failure
 fatigue limit
 fatigue phenomenon
 # fatigue process
-fatigue test
 # fatigue tests
 # fracture
 # instability
@@ -1982,7 +1980,7 @@ stress below fatigue limit
 # under-stressed
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -2006,13 +2004,14 @@ The results are discussed in terms of the changes in surface coating and bulk
 glass structure during heat conditioning.
 
 §
-# bimodal weibull distribution
+weibull distribution
 bulk glass structure
 # e-glass fibre samples
 elevated composite processing temperature
 # elevated composite processing temperatures
 # engineering thermoplastic processing temperatures
 # exposure
+elevated composite processing temperature
 glass fibre reinforcement
 # glass fibres
 # heat conditioning
@@ -2024,8 +2023,7 @@ mechanical performance
 rovings
 # silane
 silane sized e glass fibre
-# silane-coated fibres
-single fibres
+silane coated fibre
 # sized fibres
 # strength
 # strength degradation
@@ -2041,7 +2039,7 @@ water sized e glass fibre
 # water-sized fibres
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -2072,11 +2070,11 @@ Nss,and Io and higher values of RR and Rsh.
 
 §
 # acceptor atoms
-al p si mps
-# al/c20h12/p-si mps
+$al$ p-si ms diode
+$al$ c20h12 p-si mps diode
 # al/p-si ms
-# capacitance-voltage measurements
-# current-voltage measurements
+capacitance voltage measurement
+current voltage measurement
 # d1 diode
 # d2 diode
 # depletion layer width
@@ -2114,7 +2112,7 @@ zero bias barrier height
 # zero-bias barrier height
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -2143,10 +2141,9 @@ industry, as well as diminishing resources of fossil fuels, tend to increase
 development of renewable energy production such as photovoltaic technology.
 
 §
-# bond solar cells
+solar cell bonding
 # conventional power industry
 crystalline silicon solar cell
-# crystalline silicon solar cells
 current voltage characteristic
 # direct extension
 # electrical parameters
@@ -2175,7 +2172,7 @@ solar cell
 # solar cells
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -2197,7 +2194,7 @@ characteristics.
 
 §
 cement based grouted soil
-# cement matrix
+cement matrix
 # cement-based grouted soils
 cemented soil
 # cemented soils
@@ -2222,20 +2219,19 @@ macroscopic behavior
 mechanical behavior
 mesh dependency
 # mesh-dependency
-microstructure
 multiphase material
 # multiphase materials
-nonlinear mechanical behavior
+non linear mechanical behavior
 # nonlinear mechanical behaviour
 peak stress
 secant linearization procedure
 softening law
 # softening laws
-# structured soils
+structured soil
 triaxial test
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -2260,7 +2256,6 @@ the same in both the Charpy impact tests and ultra-low cycle loadings.
 
 §
 # absorbed energy
-aisc341 provision
 # aisc341 provisions
 all weld tension coupon
 # all-weld tension coupons
@@ -2268,8 +2263,8 @@ charpy v notched impact test
 # charpy v-notched impact tests
 # concentrations
 crack propagation
-# cyclic loadings
-# displacement amplitude
+cyclic loading
+displacement amplitude
 # earthquake
 electron microscope analysis
 # failures
@@ -2278,9 +2273,8 @@ fracture behavior
 fracture resistance
 # high stress levels
 # inclusions
-# materials toughness
+material toughness
 # microstructural features
-microstructure
 # microstructures
 # optical and scanning electron microscope analyses
 optical microscope analysis
@@ -2298,7 +2292,7 @@ void formation
 weld metal toughness
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -2319,16 +2313,17 @@ plate design and controlling the high V/III ratio using both the plasma-
 excitation power and the Ga precursor flow rate.
 
 §
-# confined plasma
+confined plasma
 crystal quality
-# decomposition of gallium precursors
+decomposition of gallium precursors
 # discharge region
 effective plasma shield
 epitaxial gan film
 # epitaxial gan films
-flat surface
+flat surface gan film
 # ga precursor flow rate
 gallium precursor decomposition
+gan film growth
 # gaseous phase
 # high v/iii ratio
 # higher v/iii ratios
@@ -2342,22 +2337,19 @@ metal with small holes
 # plasma
 plasma confinement
 plasma induced damage
-plasma shield
 plasma shield plate
 plasma shield plate design
 # plasma shield plates
 # plasma-excitation power
 # plasma-induced damage
 plate design
-radical enhanced
-radical enhanced metalorganic chemical vapor deposition
+radical enhanced metal organic chemical vapor deposition
 # radical-enhanced metal-organic chemical vapor deposition
 # radical-enhanced metalorganic chemical vapor deposition
 # relatively flat surface
-v/iii ratio
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -2417,6 +2409,7 @@ material characteristic
 material effect
 # media material
 new material
+new material application
 # new materials
 picture effect
 # picture effects
@@ -2453,12 +2446,11 @@ respectively.
 
 §
 # b
-b doped sample
+$b$ doped sample
 # b4c
 b4c doped sample
 # composition
 deposition rate
-# dopants
 # doping content
 electrical resistivity
 electrical resistivity reduction
@@ -2468,7 +2460,7 @@ n type conduction
 # n2
 nitrogen doped sample
 # nitrogen-doped samples
-nondoped film
+non doped film
 p type characterization
 # p-type characterization
 plasma physical vapor deposition
@@ -2484,7 +2476,7 @@ thermoelectric property
 ultrafine sic powder
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -2503,7 +2495,7 @@ to initiate TB cracks.
 
 §
 # coalescence of defects
-# cocrfemnni high-entropy alloy
+cocrfemnni high entropy alloy
 cracking mode
 cracking mode change
 cracking mode transition
@@ -2527,12 +2519,13 @@ slip band cracking
 slip band spacing
 # tb cracking
 # twin boundaries
+fatigue crack at twin boundary
 twin boundary
 void initiation
 # voids
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -2689,7 +2682,7 @@ proportioning at the time of the machine grinding-in, considerably reduces these
 losses.
 
 §
-# abrasive material
+abrasive material
 abrasive micro grain
 # abrasive micro-grains
 abrasive paste
@@ -2724,7 +2717,6 @@ metal grinding in
 natural environment
 # operating grinding-in shield
 # paper
-# precise abrasive treatment
 # reduces
 ring leading separator
 rotating ring
@@ -2766,18 +2758,18 @@ caused by the wide range in powder particle siz...
 
 §
 # aggregates
-# al matrix
+$al$ matrix
 # al13cr2
 # al18mg3cr2
 # al3mg2
-# al6mg3cr alloy
+al6mg3cr alloy
 coarse band
 # coarse bands
 # consolidated
 # equilibrium phases
 # experiments
 # extruded
-extruded al alloy
+extruded $al$ alloy
 extruded microstructure
 # extrusion
 extrusion shear zone
@@ -2801,7 +2793,6 @@ precipitate band
 # preheating
 # processing
 # properties
-rapidly solidified
 rapidly solidified powder
 # relationship
 # structural changes
@@ -2809,7 +2800,7 @@ thermomechanical consolidation
 # uniformly distributed
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -2862,13 +2853,15 @@ flag peptide
 # gold
 gold electrode
 # gold substrates
-# igg antibody
+igg antibody
 # immobilized
 immobilized antibody
 immobilized peptide
 macromolecular interface
 methacrylate polymer
 microbalance
+conformational change
+thermally induced conformational change
 # nasp-tyr-lys-asp-asp-asp-asp-lys-c
 # peak separation values
 # peptide
@@ -2889,13 +2882,13 @@ side chain
 # side chains
 # surrounding media
 # temperature dependent behavior
-# thermally induced conformational change
+# thermally induced 
 thermoresponsive polymer
 # thin film
-# voltammetric peak current
+voltammetric peak current
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -2921,8 +2914,8 @@ when the in-plane compressive tensile strain is added up to 4.98% 5.29%.
 §
 2deg
 carrier concentration
-# compressive strain
-conductivity
+in plane compressive strain
+2deg conductivity
 density functional theory
 # dft calculations
 # distortion
@@ -2933,22 +2926,21 @@ in plane strain
 # interfacial ti3 d xy electrons
 # interfacial tio octahedron
 # laalo3/srtio3 interface
-laalo3/strtio3 interface
+laalo3 srtio3 interface
 lattice constant
 lattice relaxation
 metal insulator transition
 # metal-insulator transition
-roughness
+interface roughness
 strain effect
 # tensile strain
 # ti3 d xy orbital
 tio3 interface
-titanium electron
 two dimensional electron gas
 # two-dimensional electron gas
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -2967,10 +2959,12 @@ confirmed that at low annealing temperatures, the fine grain structures were
 stable and indeed became more equiaxed and well defined.
 
 §
-# annealing temperatures
+low annealing temperature
 electron microscopy
 equal channel angular extrusion
-# equiaxed
+equiaxed fine grain structure
+stable fine grain structure
+well defined fine grain structure
 # fine grain structures
 grain growth
 heat treatment
@@ -2992,7 +2986,7 @@ x ray diffractometry
 # x-ray diffractometry
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -3023,7 +3017,7 @@ metal.
 # aqueous solution
 aqueous solution transmission
 # base metal
-# cantilever-type rotating bending corrosion fatigue tests
+cantilever type rotating bending corrosion fatigue test
 carbon steel
 chemical vapour deposition
 # coated
@@ -3031,6 +3025,7 @@ coating layer
 corrosion fatigue crack propagation
 # corrosion fatigue crack propagation rate
 corrosion fatigue strength
+corrosion fatigue resistance
 # corrosion pits
 corrosion pits formation
 # corrosion resistance
@@ -3058,10 +3053,10 @@ scanning electron microscope
 # surface
 tin coating
 tin layer adhesion
-# titanium nitride
+titanium nitride
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -3090,16 +3085,16 @@ austenitic domain is also presented.
 
 §
 # activation energy
-# assessment of welding process
+welding process assessment
 austenitic transformation
 fatigue crack behavior
-# fatigue crack growth
-# fatigue crack initiation
+fatigue crack growth
+fatigue crack initiation
 fatigue damage
 francis type hydraulic turbine runner
 # francis type hydraulic turbine runners
 # fully austenitic domain
-# fully martensitic state
+fully martensitic state
 heat affected zone
 # heat-affected zone
 homogeneous weld
@@ -3118,11 +3113,12 @@ numerical method
 phase distribution
 phase transformation
 quenching dilatometer
-# r-4ni steels
+r-4ni steel
 residual stress
 residual stress calculation
 # residual stresses
-# soft martensitic stainless steel
+soft martensitic stainless steel
+martensitic stainless steel
 solid state phase transformation
 solid state phase transformation model
 # solid-state phase transformations
@@ -3137,7 +3133,7 @@ welding simulation
 # welding simulations
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -3160,8 +3156,8 @@ alloy system
 # alloy systems
 # considerations
 creep resistance
+creep resistant alloy
 # features
-high temperature
 high temperature creep resistant alloy
 # high-temperature creep-resistant alloys
 incremental improvement
@@ -3179,13 +3175,14 @@ phase formation
 structure and property
 # success
 superalloy
+superalloy superiority
 # superalloys
 # system
 tial alloy
-# tialti3al
+tialti3al system
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -3213,7 +3210,7 @@ solid solutions domains, S1S1 phases existence were established.
 # -phase precipitates
 # 1424 alloy
 # 1632 h
-ageing
+alloy ageing
 ageing temperature interval
 # al2mgli
 # allimgsczr
@@ -3242,6 +3239,7 @@ phase transformation
 # precipitation
 precipitation of s1 phase
 quench sensitivity
+alloy quench sensitivity
 quenching
 # s1
 # s1 phase precipitation
@@ -3264,13 +3262,13 @@ tpp diagram
 # ttp diagram
 ttt diagram
 # uts
-uts ultimate tensile strength
+ultimate tensile strength
 x ray phase analysis
 # ys
-ys yield strength
+yield strength
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -3296,7 +3294,8 @@ states can side-step the problem of high computational cost to facilitate
 materials design.
 
 §
-# accelerate materials engineering
+accelerated material engineering
+accelerated material design
 # accuracy
 # approximations
 # challenge
@@ -3314,6 +3313,7 @@ electronic excitation
 electronic state
 # electronic-structure methods
 excited electronic state
+excited electronic dynamic
 experimental advancement
 # experimental advances
 # facilitate materials design
@@ -3332,7 +3332,6 @@ materials engineering
 # modern materials
 # need for further theoretical understanding
 numerical integrator
-online database
 # probe materials
 real time time dependent density functional theory
 # real-time tddft
@@ -3350,7 +3349,7 @@ time dependent density functional theory
 # use
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -3370,6 +3369,7 @@ contact interaction
 # contact interactions
 deformation mechanism
 elastic modulus
+entangled fibre network
 fibre network
 fibre network model
 fibre network modeling
@@ -3409,7 +3409,6 @@ tried for manufacturing parts in automotive industry.
 # 800 mpa
 # alloying elements
 # aluminium
-aluminium alloy
 automotive industry
 blended elemental powder method
 cold compaction pressure
@@ -3421,11 +3420,12 @@ elemental powder method
 mechanical property
 # mo
 # molybdenum
-molybdenum alloy
 # oxygen
-oxygen alloy
 sintered titanium alloy
-# sintering
+aluminium sintered titanium alloy
+molybdenum sintered titanium alloy
+oxygen sintered titanium alloy
+sintering
 # starting materials
 # ti
 # ti1.52.0%mo0.7%tio2
@@ -3438,7 +3438,7 @@ titanium alloy
 # titanium matrix
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -3459,15 +3459,15 @@ laser.
 
 §
 active medium
-# actual cubr laser
+cubr laser
 # analytical results
 # assessment
-# computer simulations
+computer simulation
 copper bromide
 # copper bromide cbr laser
 copper bromide vapor laser
 # cross-section
-# cubr active medium
+cubr active medium
 # discharge
 electric ionization resistance
 electrical power supplied
@@ -3487,7 +3487,7 @@ quasi stationary heat conductivity equation
 # simulation results
 # solution
 # temperature
-temperature of the neutral gas
+neutral gas temperature 
 # theoretical results
 thermal ionization
 # two-dimensional quasi-stationary heat conductivity equation
@@ -3495,7 +3495,7 @@ vapor amplifier
 vapor laser
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -3587,15 +3587,15 @@ coal ratio in the feed slurry.
 coal treatment
 cyclone
 feed medium specific gravity
+feed medium
+feed slurry
 heavy medium cyclone
 heavy medium cyclone treating coal
 magnetite to coal ratio
-operating variable
-performance
 specific gravity of separation
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -3620,6 +3620,8 @@ bcc grain formation
 crack tip
 # fcc phase
 # fe
+$fe$ crack tip grain nucleation
+crack tip grain nucleation
 grain nucleation
 # increasing temperature
 kurdjumov sachs orientation relationship
@@ -3641,7 +3643,7 @@ stress induced phase transformation
 # temperatures
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -3657,13 +3659,11 @@ but does not improve the coarsening resistance and creep resistance.
 §
 # accelerates l1 2 -al3zr
 # al-0.26mn-0.11mo-0.11si-0.08zr-0.02sc-0.01er at.% alloy
-almnmoisurzrscerer alloy
+almnmosizrscer alloy
 # almnmosizrscer alloy
-# coarsening resistance
+coarsening resistance
 creep resistance
 isothermal aging
-l1 2 al3zr
-l1 2 al3zr precipitation
 # mechanical properties
 mechanical property
 # micro-addition
@@ -3680,7 +3680,7 @@ w micro addition
 # w micro-additions
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -3709,7 +3709,7 @@ surface tension, but the former is always in excess to provide kinetic action
 toward the equilibrium described by surface tension.
 
 §
-# arrhenius relationship
+arrhenius relationship
 # bubble growth
 bubble migration
 # bubble migration processes
@@ -3723,7 +3723,8 @@ cluster gas atom
 # cm3
 # coupled processes
 # diffusion of gas atoms
-# diffusion of vacancies
+vacancies diffusion
+Schottky vacancies diffusion 
 diffusional creep
 diffusional creep model
 # diffusional creep processes
@@ -3731,6 +3732,9 @@ diffusional creep model
 # equilibrium
 # exponential relationship
 external diametral swelling rate
+uranium oxide swelling rate
+nitride swelling rate
+carbide swelling rate
 # external diametral swelling rates
 fission gas pressure
 # fission gas pressures
@@ -3740,7 +3744,7 @@ fission gas swelling
 fuel property
 gas atom diffusion
 gas bubble growth
-# gas bubbles
+gas bubble
 high temperature fission gas swelling
 # high-temperature fission gas swelling
 # individual gas atoms
@@ -3764,7 +3768,7 @@ uranium oxide
 vacancy diffusion
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -3796,14 +3800,14 @@ needed, such as using other agents during the mordanting and fixation processes.
 §
 # agents
 chlorophyll content
-# cotton cloth
+cotton cloth coloring
 # dried papaya leaves
 dyed papaya leaf
 dyeing
 # environment
 environmental damage
 # environmental problems
-ethanol 96%
+ethanol 96% solvent
 fabric staining
 fade resistance
 fastness
@@ -3817,7 +3821,7 @@ heavy metal
 # leaves
 liquid extraction
 mordanting
-n hexane
+n hexane solvent
 # n-hexane
 natural dye
 # natural dyes
@@ -3844,7 +3848,7 @@ water pollution
 # wood
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -3864,7 +3868,7 @@ indicates improved device characteristics of the ZnO nanocone ARC.
 §
 angle of incidence
 # anti-reflective coating
-antireflective coating
+anti reflective coating
 # arc
 # conventional planar device
 # device characteristics
@@ -3872,7 +3876,7 @@ external quantum efficiency
 # external quantum efficiency eqe
 incidence angle
 # ir spectra
-ito si metal insulator
+ito §si§ metal insulator
 # ito-si metalinsulatorsemiconductor mis photodetector
 metal insulator
 metal insulator silicon semiconductor
@@ -3891,7 +3895,7 @@ zno nanocone coating
 # zno nanocones
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -3924,6 +3928,7 @@ creep deformation
 creep deformation characteristic
 # creep flow
 creep rupture strength
+$cu$ $nb$ composite
 # cu-20%nb
 diffusion mechanism
 # diffusion mechanisms
@@ -3938,17 +3943,17 @@ matrix creep flow
 niobium filament
 niobium phase
 # power law creep damage mechanism
-# pure copper
+pure copper
 # room temperature strengthening
-# rupture characteristics
+rupture characteristic
 stress exponent
 # stress exponents
 wire drawn composite
-wire drawn cu nb composite
+wire drawn $cu$ $nb$ composite
 # wire-drawn
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
