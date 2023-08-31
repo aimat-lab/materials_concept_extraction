@@ -1,0 +1,1138 @@
+
+================================================================================
+
+W4328097139
+
+The Effect of Strain Rate on the Tensile Deformation Behavior of Single Crystal,
+NiBased Superalloys. Single crystal Nickel-based superalloys exhibit an
+anomalous yield point, the yield stress increasing with temperature to a maximum
+at around. Here, we demonstrate in the alloy CMSX-4 at that, although there is
+virtually no effect of strain rate on the initial yield point, at slow strain
+rates a second mechanism can initiate leading to a considerable softening
+effect. By examining the microstructures of a series of interrupted tests, this
+is attributed to the initiation of stacking fault shear after the operation of a
+secondary slip system. Using high-resolution TEM, the dislocation structures are
+shown to be identical in both structure and in the segregation of Co, Cr, and W,
+to those observed during creep deformation of single crystal alloys, although
+the conformation of the dislocations and faults differs from that observed
+during creep. This drop in flow stress at low strain rates is not observed in
+the alloys TMS138A and SRR99, in the former case, the improved creep resistance
+of this fourth-generation alloy would require a much slower strain rate to match
+the creep rate achievable at this temperature.
+
+§
+# alloy cmsx 4
+# alloys tms138a
+anomalous yield point
+# co
+# cr
+creep deformation
+# creep resistance
+dislocation conformation
+dislocation structure
+# dislocation structures
+drop flow stress
+# flow stress
+fourth generation alloy
+high resolution tem
+# interrupted tests
+low strain rate
+# mechanism
+# microstructures
+microstructures interrupted test
+# nibased superalloys
+nickel based superalloy
+secondary slip system
+# segregation
+# single crystal
+single crystal nickel based superalloy
+# softening effect
+# srr99
+stacking fault
+stacking fault shear
+strain rate
+# temperature
+tensile deformation
+# tensile deformation behavior
+# w
+# yield point
+yield stress
+§
+
+[n]   
+
+================================================================================
+
+W2070005421
+
+Tensile test of lead zirconate titanate PZT/Platinum Pt thin film. This paper
+presents the results of tensile tests for lead zirconate titanate PZT/Platinum
+Pt thin films of 2.15 m thickness in atmospheric air at room temperature. An
+axial loading tester developed by the authors was used for the tests. The tester
+was equipped with a load cell with a maximum capacity of 0.5 N and a non-contact
+position measuring system based on the principle of capacitance micrometry.
+Furthermore, the tester was equipped with a CCD charge-coupled device system for
+measuring the displacement of the gage length. Specimens with three different
+widths 50, 100 and 150 m were fabricated to study the size width of specimen
+effects. The elastic moduli of the specimens with 50, 100 and 150 m width were
+72.8 3.7, 75.0 1.3, 73.3 1.8 GPa, respectively. In addition, the ultimate
+tensile strength of the specimens with 50, 100 and 150 m width were 263.4 21.1,
+238.6 4.5, 221.1 13.9 MPa, respectively. It was observed that the width of
+specimen has little effect on the elastic modulus of PZT/Pt thin films but has
+an effect on the ultimate tensile strength of PZT/Pt thin films and the ultimate
+tensile strength decreases as the width increases. It was assumed that the
+scatter in the ultimate tensile strength of 50 m width was attributed to
+delamination of PZT/Pt layers before the fracture in the tensile test. The 0.2%
+offset yield strength could not be measured because the PZT/Pt thin film is very
+brittle.
+
+§
+# 0.2% offset yield strength
+# 0.5 n
+# 1.3 gpa
+# 1.8 gpa
+# 100 m
+# 13.9 mpa
+# 150 m
+# 2.15 m thickness
+# 21.1 mpa
+# 221.1 mpa
+# 238.6 mpa
+# 263.4 mpa
+# 3.7 gpa
+# 4.5 mpa
+# 50 m
+# 72.8 gpa
+# 73.3 gpa
+# 75.0 gpa
+atmospheric air
+# authors
+axial loading tester
+# brittle
+# ccd charge coupled device system
+charge coupled device
+delamination
+# displacement
+displacement measurement
+# effect
+# elastic moduli
+elastic modulus
+# fracture
+# gage length
+lead zirconate titanate
+load cell
+# maximum capacity
+non contact position measuring system
+# platinum
+platinum thin film
+# principle of capacitance micrometry
+pzt
+# results
+room temperature
+# scatter
+# size width
+# specimen effects
+# specimens
+tensile strength
+tensile test
+# thin film
+# three different widths
+ultimate tensile strength
+width effect
+§
+
+[n]   
+
+================================================================================
+
+W2114474363
+
+Super Low Loss Guided Wave Bands Using Split Ring Resonator-Rod Assemblies as
+Left-Handed Materials. SRR metamaterial is used as a substrate material in a
+microstrip guided wave structure to determine what the effect is of a material
+with potentially excessive dispersion or loss or both. A Greens function method
+readily incorporates the metamaterial permittivity and permeability tensor
+characteristics. Ab initio calculations are performed to obtain the dispersion
+diagrams of several complex propagation constant modes of the structure.
+Analytical analysis is done for the design and interpretation of the results,
+which demonstrate remarkable potential for realistic use in high frequency
+electronics while using the LHM for possible field reconfigurations. Bands of
+extremely low loss appear for several of the lowest order modes operating in the
+millimeter wavelength regime.
+
+§
+ab initio calculation
+# ab initio calculations
+analytical analysis
+# bands of extremely low loss
+complex propagation constant mode
+# complex propagation constant modes
+# design
+dispersion diagram
+# dispersion diagrams
+# excessive dispersion
+# excessive loss
+field reconfiguration
+# field reconfigurations
+greens function method
+guided wave band
+# high frequency electronics
+# interpretation of results
+left handed material
+# left handed materials
+# lhm
+low loss band
+# lowest order modes
+# metamaterial permeability tensor characteristics
+# metamaterial permittivity
+microstrip guided wave structure
+millimeter wavelength regime
+# realistic use
+# remarkable potential
+resonator
+rod assembly
+split ring resonator
+# split ring resonator rod assemblies
+# srr metamaterial
+structure mode
+# substrate material
+super low loss guided wave band
+# super low loss guided wave bands
+§
+
+[n]   
+
+================================================================================
+
+W2969600454
+
+A Fracture Mechanics Investigation on Crack Growth in Massive Forming. To
+understand the crack growth in massive forming and to consequentially avoid
+crack growth in workpieces, it is necessary to investigate its dependence on the
+crack depth and thus on the state of hydrostatic stress. Prior work shows that
+the crack opening displacement COD for shallow cracked tension specimens with
+low stress triaxiality is twice as high as for deep cracked specimens with high
+stress triaxiality. This work examines the crack growth in compression specimens
+with pre-cracked cylindrical upsetting samples. The compression samples were cut
+in the stress symmetry plane in order to observe crack initiation and crack
+growth by a single specimen technique. In this way it is possible to observe
+blunting, crack initiation and crack growth inside the upsetting specimens. The
+resulting COD does not differ significantly from the values achieved in tension
+samples with short surface cracks.
+
+§
+blunting
+# cod
+compression specimen
+# compression specimens
+# crack depth
+crack growth
+# crack growth inside the upsetting specimens
+crack initiation
+crack opening displacement
+crack opening displacement coefficient
+cracked specimen
+cylindrical upsetting sample
+# deep cracked specimens
+fracture mechanic investigation
+# fracture mechanics
+high stress triaxiality
+hydrostatic stress
+low stress triaxiality
+massive forming
+pre cracked cylindrical upsetting sample
+# pre cracked cylindrical upsetting samples
+shallow cracked tension specimen
+# shallow cracked tension specimens
+# short surface cracks
+single specimen technique
+# state of hydrostatic stress
+stress symmetry plane
+# tension samples
+workpiece
+# workpieces
+§
+
+[n]   
+
+================================================================================
+
+W3021957049
+
+Rapid Dissolution of Secondary Phase in Cold-Rolling AlCuMgAlloy by
+Electropulsing Treatment. The AlCuMg alloy is a precipitation-strengthening
+alloy, which is traditionally dissolving lots of secondary phase and
+precipitating in subsequent aging process, thus having been applied to aerospace
+and automobile industry due to its low density and high strength. However, the
+high temperature and long operating time needed for the dissolution of secondary
+phase consume numerous energy. In this work, rapid dissolution of secondary
+phase in cold-rolling AlCuMg alloy was achieved by coupling treatment of thermal
+field and pulsed electric current. The energy consumption for dissolving
+secondary phasewas reduced from operating 1h to operating several minutes.
+Therefore, the coupling treatment of thermal field and pulsed electric current
+significantly improves the dissolving rate and decreases the energy consumption.
+
+§
+aerospace industry
+aging process
+alcu mgalloy
+# alcumg alloy
+automobile industry
+cold rolling
+dissolving rate
+electropulsing treatment
+energy consumption
+high strength
+# high temperature
+# long operating time
+low density
+precipitation strengthening
+precipitation strengthening alloy
+pulse electric current
+pulsed electric current
+rapid dissolution
+secondary phase
+thermal field
+§
+
+[n]   
+
+================================================================================
+
+W1982921308
+
+First-Principles Calculations of Titanium Dopants in Alumina. First-principles
+pseudopotential calculations were performed to investigate atomic and electronic
+structures of titanium Ti dopants in alumina Al2O3. It was found that a
+substitutional Ti3+ defect induced an extra level occupied by one electron
+within the band gap of Al2O3. When two or more substitutional Ti3+ defects were
+located closely to each other, the defect-induced levels exhibited strong
+bonding interactions, and their formation energies decreased with increasing
+numbers of Ti3+ defects. This indicates that association and clustering of
+substitutional Ti3+ defects in Al2O3 can take place due to the interaction of
+the defect-induced levels.
+
+§
+alumina
+# association
+atomic structure
+# atomic structures
+band gap
+bonding interaction
+clustering
+defect induced level
+# defect induced levels
+electronic structure
+# electronic structures
+extra level
+first principles calculation
+# first principles calculations
+# formation energies
+formation energy
+pseudopotential calculation
+substitutional ti3+ defect
+titanium dopant
+# titanium dopants
+§
+
+[n]   
+
+================================================================================
+
+W2989456943
+
+Photo-assisted green synthesis of silver doped silk fibroin/carboxymethyl
+cellulose nanocomposite hydrogels for biomedical applications. Silver
+nanoparticles AgNPs and regenerated silk fibroin RSF have recently attracted
+significant interests for their potential applications in preventing wound-
+related infections and in tissue engineering. Indeed, nano-silver has long been
+recognized as one of the most effective antimicrobial agents, and silk fibroin
+is well known for its capability of stimulating cell activities and facilitating
+tissue regeneration. In this study, a green synthesis approach was used to
+create a composite hydrogel CoHy of RSF stabilized with CarboxymethylCellulose-
+NaCMC-Na and loaded with AgNPs. Their swelling ratios were up to 59 g/g when
+tested in different physiologically relevant fluids. Material characterizations
+by Scanning electron microscopy SEM with Energy Dispersive X-ray Spectroscopy
+EDS, and X-Ray Diffraction XRD confirmed the presence of AgNPs on the surface.
+Antimicrobial properties of the CoHy samples were evaluated using agar diffusion
+tests. The results showed distinct inhibition zones against major microorganisms
+found in wound infections, including Escherichia coli E. coli, Staphylococcus
+aureus S. aureus, Staphylococcus epidermidis S. epidermidis, Methicillin
+Resistant Staphylococcus aureus MRSA, Pseudomonas aeruginosa P. aeruginosa,
+Candida albicans C. albicans and Fluconazole-resistant Candida albicans FRCA.
+Cytocompatibility studies with rat bone marrow derived mesenchymal stem cellsin
+vitro showed that the adhesion density of BMScs on the CoHy loaded with 1 mg/mL
+was similar to the cell-only control group for the first 24 h of culture;
+moreover, higher cell proliferation was observed on the CoHy without AgNPs,
+indicating the regenerative potentials of the RSF/CMC composite hydrogels.
+
+§
+# adhesion density
+agar diffusion test
+# agar diffusion tests
+# agnps
+# antimicrobial agents
+# antimicrobial properties
+biomedical application
+# biomedical applications
+candida albicans
+carboxymethyl cellulose
+# carboxymethylcellulose nacmc na
+carboxymethylcellulose stabilized
+# cell activities
+cell adhesion
+cell proliferation
+cellulose
+# composite hydrogel
+# cytocompatibility studies
+energy dispersive x ray spectroscopy
+escherichia coli
+fluconazole resistant candida albicans
+green synthesis
+# in vitro
+# inhibition zones
+mesenchymal stem cells
+methicillin resistant staphylococcus aureus
+microorganism infection
+# microorganisms
+nanocomposite hydrogel
+# photo assisted green synthesis
+# physiologically relevant fluids
+pseudomonas aeruginosa
+rat bone marrow derived mesenchymal stem cells
+# regenerated silk fibroin
+regenerative potential
+# regenerative potentials
+# rsf
+# rsf/cmc composite hydrogels
+# scanning electron microscopy
+silk fibroin
+silk fibroin capability
+silver doped silk fibroin
+# silver doped silk fibroin/carboxymethyl cellulose nanocomposite hydrogels
+# silver nanoparticles
+staphylococcus aureus
+staphylococcus epidermidis
+stem cells
+# swelling ratios
+# tissue engineering
+tissue regeneration
+# wound infections
+wound related infection
+# wound related infections
+x ray diffraction
+§
+
+[n]   
+
+================================================================================
+
+W1995727683
+
+A modified criterion for shear band formation in bulk metallic glass under
+complex stress states. A new criterion for shear band formation in metallic
+glasses is proposed based on the shear plane criterion proposed by Packard and
+Schuh 1. This modified shear plane MSP criterion suggests that a shear band is
+not initiated randomly throughout the entire material under stress but is
+initiated at the physical boundaries or defects and at locations where the
+highest normal stress modified maximum shear stress occurs. Moreover, the same
+as in the shear plan criterion, the shear stress all over the shear band should
+exceed the shear yield strength of the material. For a complete shear band to
+form, both requirements need to be fulfilled. The shear yield strength of the
+material is represented by the shear stress of the point at which the shear band
+stops. The new criterion agrees very well with experimental results in both the
+determination of the shear yield strength and the shear band path. C2010
+Elsevier B.V. All rights reserved.
+
+§
+bulk metallic glass
+# c2010 elsevier b.v.
+# complete shear band
+# complex stress states
+# defects
+# experimental results
+# highest normal stress
+# modified criterion
+# modified maximum shear stress
+# msp criterion
+normal stress
+packard and schuh
+# physical boundaries
+physical boundary
+shear band formation
+# shear band initiation
+shear band path
+shear plane criterion
+# shear stress
+shear yield strength
+shear yield stress
+stress state
+§
+
+[n]   
+
+================================================================================
+
+W2046037354
+
+Dose loss and segregation of boron and arsenic at the Si/SiO2 interface by
+atomistic kinetic Monte Carlo simulations. Continuum downscaling of MOSFET
+devices requires of ultra-shallow junction formation. Performance of the source
+and drain from B andlow energy implant and subsequent annealing is seriously
+affected by the presence of the SiSiO2 interface. Dopant loss due to segregation
+and dopant pileup at the interface during the transient enhanced diffusion TED
+are crucial phenomena for current and future CMOS devices. In this work we have
+implemented the Oh-Ward model Y.-S. Oh, D.E. Ward, Tech. Dig. Int. Electron
+Devices Meet. 1998 1998 509 for the dopant behaviour at the interfaces
+integrated in an atomistic kinetic Monte Carlo simulator. Dopant traps at the
+interface can capture from or emit to either side of the interface. Furthermore,
+segregation of dopants and saturation of the interface by the presence of other
+species are also included.a test of the model, low energy implants through a
+screen oxide have been simulated. When annealing these very shallow implants, a
+pileup at the interface is observed. The mechanisms involved in this process, as
+well as its dependence on the implant dose and energy are discussed.
+
+§
+annealing
+# arsenic
+arsenic segregation
+atomistic kinetic monte carlo simulation
+# atomistic kinetic monte carlo simulations
+# atomistic kinetic monte carlo simulator
+# b
+# boron
+boron segregation
+continuum downscaling
+# current
+# d.e. ward
+# dependence
+# dopant behaviour
+dopant loss
+dopant pileup
+dopant trap
+# dopant traps
+dose loss
+# drain
+# energy
+# future cmos devices
+# implant dose
+interface behavior
+interface capture
+interface emission
+# interfaces
+# loss
+low energy implant
+# low energy implants
+# mechanisms
+monte carlo simulation
+monte carlo simulator
+mosfet device
+# mosfet devices
+oh ward model
+# other species
+# performance
+# presence
+# saturation
+saturation model
+# screen oxide
+# segregation
+segregation model
+# segregation of dopants
+# si/sio2 interface
+# source
+source and drain performance
+# tech. dig. int. electron devices meet.
+# ted
+# test
+# transient enhanced diffusion
+ultra shallow junction formation
+# y. s. oh
+§
+
+[n]   
+
+================================================================================
+
+W2912933370
+
+The Prospects of Use of Eco-Friendly Materials in the Cement Industry. Portland
+cement is a main type of construction materials, however his production does
+harm to the environment. In article the author has considered prospects of
+production technologies and the main properties of the eco-friendly knitting
+materials in the concrete used when constructing facilities different function.
+Researches have shown that alternative types of eco-friendly materials have the
+limited fields of use, but can widely be used for construction of roads,
+airfields, hydraulic engineering constructions already in the nearest future.
+Speed of their
+
+§
+airfield construction
+# airfields
+alternative type material
+# alternative types
+# article
+# author
+cement industry
+concrete
+# considered
+# constructing facilities
+construction material
+# construction materials
+# construction of roads
+# different function
+eco friendly knitting material
+eco friendly material
+# eco friendly materials
+# environment
+environmental harm
+facility construction
+# harm
+hydraulic engineering construction
+# hydraulic engineering constructions
+# knitting materials
+# limited fields
+# main properties
+# main type
+# nearest future
+portland cement
+# production
+# production technologies
+production technology
+# prospects
+# researches
+road construction
+# speed
+# use
+§
+
+[n]   
+
+================================================================================
+
+W2048415386
+
+Hot deformation behaviour of thixocast AlSiMg alloy during compression at
+elevated temperatures. In the present study, the flow behaviour and constitutive
+equation of a Thixocast A356 Al alloy has been studied using the hot compression
+test at 450, 500 and under the strain rates of 00001, 00005, 0001 and 001 s1.
+The compression flow curves exhibited an initial sharp increase with strain
+followed by a moderate work hardening behaviour. The maximum stress was
+decreased as the strain rate reduced and the temperature increased. At the
+lowest examined temperature 450C and the highest applied strain rate 001 s1, a
+flow softening behaviour was observed. This was attributed to the morphological
+changes of the present precipitates.
+
+§
+# applied strain rate
+# compression
+compression at elevated temperature
+# compression flow curves
+constitutive equation
+# elevated temperatures
+flow behavior
+flow softening behavior
+hot compression test
+hot deformation behavior
+# initial sharp increase
+# lowest examined temperature
+maximum stress
+# moderate work hardening behavior
+morphological change
+# morphological changes
+present precipitate
+# present precipitates
+strain rate
+# strain rates
+# thixocast a356 al alloy
+thixocast alsi mg alloy
+# thixocast alsimg alloy
+work hardening behavior
+§
+
+[n]   
+
+================================================================================
+
+W2046280025
+
+Effects of aging on the phase transformation and sintering properties of TiO2
+gels. In this study, the effects of aging on the crystalline phases, crystallite
+sizes, and sintering properties of TiO2 gels were investigated by using
+thermogravimetry TG, differential thermal analysis DTA, X-ray diffractometer
+XRD, dilatometer and scanning electron microscopy SEM. With increasing aging
+time, the hydroxyl ions existing in the anatase lattice decreased, and so the
+oxygen vacancy concentration produced after calcination decreased. Consequently,
+increasing aging time during sintering lowered the crystallite growth rate of
+anatase. The densification of the TiO2 powders was dependent upon the aging time
+which shifted the anataserutile ar-TiO2 phase transformation to higher
+temperature and lowered the crystallite growth rate during sintering.
+
+§
+# aging
+aging effect
+anatase lattice
+# anatase rutile
+anataserutile ar tio2 phase transformation
+# ar tio2
+# calcination
+crystalline phase
+# crystalline phases
+crystallite growth rate
+crystallite size
+# crystallite sizes
+# densification
+differential thermal analysis
+dilatometer
+# dta
+hydroxyl ion
+# hydroxyl ions
+oxygen vacancy concentration
+phase transformation
+phase transformation temperature
+scanning electron microscopy
+# sem
+# sintering properties
+sintering property
+# temperature
+# tg
+thermogravimetry
+tio2 gel
+# tio2 gels
+# tio2 powders
+x ray diffractometer
+# xrd
+§
+
+[n]   
+
+================================================================================
+
+W2592137295
+
+Flexural Strengthening of Damaged T-Joists with Severe Corrosion Using CFRP
+Sheets. This paper evaluates the residual safety of isolated T-joists with
+severe corrosion for the two extreme cases of boundary conditions, simply
+supported and fixed-ended, in order to help in making decisions about the
+magnitude of the necessary intervention. When the T-joist is part of a complete
+slab, the boundary conditions will be in an intermediate situation between these
+two extreme cases, so that it is possible to assess the safety with respect to
+its degree of embedding. The research is conducted for the cases of healthy
+T-joist, T-joist with complete corrosion of the lower reinforcement, and
+repaired T-joists with a variable number of CFRP sheets. This work is based on
+the ACI 318 load test to maintain a structure in use and proposes a Load Factor
+LF, which estimates the safety reserve. The simply supported T-joists specimens
+with severe corrosion do not meet the Load Factor or ACI 318 criteria, even with
+a large number of CFRP sheets. On the other hand, fixed-ended cases can be kept
+in use despite corrosion by applying light CFRP strengthening, and with four
+sheets the initial safety is restored.
+
+§
+# aci 318 criteria
+# aci 318 load test
+boundary condition
+# boundary conditions
+cfrp sheet
+# cfrp sheets
+# complete slab
+corrosion
+damaged t joist
+# damaged t joists
+# degree of embedding
+fixed ended
+flexural strengthening
+# healthy t joist
+# initial safety
+# isolated t joists
+# large number
+# light cfrp strengthening
+load factor
+load factor (lf)
+load test
+# lower reinforcement
+# necessary intervention
+# repaired t joists
+residual safety
+safety reserve
+# severe corrosion
+simply supported
+simply supported t joist
+# structure in use
+# variable number
+§
+
+[n]   
+
+================================================================================
+
+W2046716267
+
+A nanometer scale surface morphology study of W thin films. Microstructure of
+tungsten thin films deposited by RF-sputtering is studied as a function of their
+thicknesses. These films have been deposited on 100 oriented single crystal Si
+substrate and Si substrate covered by a 100-nm-thick Ti layer. The crystalline
+structure is studied by X-ray Diffraction XRD and Grazing Incidence XRD GIXRD.
+The surface and the cross-section morphology are observed by high resolution
+Scanning Electron Microscopy SEM and Atomic Force Microscopy AFM. XRD patterns
+exhibit peaks corresponding to pure W phase. GIXRD analysis shows that the more
+the thickness increases, the more the film is oriented along the 110 direction.
+AFM observations show that films exhibit a particular morphology constituted of
+piles of platelets oriented perpendicularly to the wafer surface. These piles of
+platelets are in plane randomly oriented and are sometime observed upon all the
+thicknesses of the layer. This particular morphology is observed whatever the
+substrate is, and is explained by thin layer growth theories.
+
+§
+# 100 nm thick ti layer
+# 100 oriented single crystal si substrate
+# 110 direction
+# afm observations
+atomic force microscopy
+# atomic force microscopy afm
+# cross section morphology
+crystal si substrate
+# crystalline structure
+force microscopy
+# gixrd analysis
+grazing incidence x ray diffraction
+# grazing incidence xrd gixrd
+# high resolution scanning electron microscopy sem
+layer growth theory
+# microstructure
+# nanometer scale surface morphology
+nanometer scale surface morphology study
+# particular morphology
+# piles of platelets
+platelet morphology
+platelet oriented
+# pure w phase
+rf sputtering
+scanning electron microscopy
+# si substrate
+surface morphology
+surface morphology study
+# thicknesses
+# thin layer growth theories
+thin layer growth theory
+tungsten thin films
+w thin films
+wafer surface
+x ray diffraction
+# x ray diffraction xrd
+# xrd patterns
+§
+
+[n]   
+
+================================================================================
+
+W2474159940
+
+Applicability of sol-gel processing in production of silica based optical
+fibres. The production of silica based optical fibres is a mature technology and
+the chemical vapour deposition techniques used to obtain high quality glass are
+now well established. Sol-gel technology is associated with glassmaking at
+relatively low temperatures and since the early 1980s has been actively studied
+in many leading laboratories all over the world; over the past decade the number
+of scientific publications in the field has dramatically increased. At present
+there are still only a few industrial applications using sol-gel processing, but
+the potential is growing for high technology applications including optical
+materials
+
+§
+# actively studied
+chemical vapour deposition
+chemical vapour deposition technique
+# chemical vapour deposition techniques
+# dramatically increased
+# early 1980s
+# few industrial applications
+# field
+glass making
+# glassmaking
+# growing
+# high quality glass
+# high technology applications
+industrial application
+# leading laboratories
+low temperature glassmaking
+# low temperatures
+# mature technology
+optical fibre
+# optical materials
+# potential
+# production
+scientific publication
+# scientific publications
+silica based optical fibre
+# silica based optical fibres
+sol gel processing
+sol gel technology
+vapour deposition
+# well established
+# world
+§
+
+[n]   
+
+================================================================================
+
+W2038122443
+
+Effects of Variable La/CeRatio on Microstructure and Mechanical Properties of
+Mg-5Al-0.3Mn-1RE Alloys. Effects of variable La/Ce ratio on microstructure and
+mechanical properties of Mg-5Al-0.3Mn-1RE alloys were investigated. The results
+indicated that pure La or pure Ce can improve ultimate strength and yield
+strength of AM50 effectively without obvious decrease of elongation, and the
+effect of La is better than that of Ce. However, addition of La and Ce together
+deteriorates the mechanical properties of AM50, and the valley of mechanical
+properties mostly appears on La:Ce= 1:1. The existence of coarse skeleton-like
+phase and less amount of Mg17Al12 phase is responsible for this.
+
+§
+# addition
+# am50
+coarse skeleton like phase
+# deteriorates
+# effect
+effective improvement
+elongation
+la/ceratio
+manganese alloy
+# mechanical properties
+mechanical property
+# mg 5al 0.3mn 1re alloys
+mg al alloy
+mg alloy
+mg17al12 phase
+microstructure
+pure ce
+pure la
+skeleton like phase
+ultimate strength
+# valley
+# variable la/ce ratio
+variable la/ceratio
+yield strength
+§
+
+[n]   
+
+================================================================================
+
+W2249601750
+
+Fatigue Crack Growth Behavior of High Manganese Austenitic TWIP Steels. Fatigue
+crack growth FCG behavior of three high manganese austenitic twin-induced
+plasticity TWIP steels with different stacking fault energy SFE was
+investigated, aiming at studying the correlation between the FCG resistance and
+the SFE of the steels. FCG tests were performed using three-point bending
+specimens at room temperature at stress ratio of 0.1 under the control of stress
+intensity factor range. Test results showed that the fatigue threshold values of
+these steels decrease with increasing the SFE. However, in the Paris regime, the
+crack growth rates of the steels do not appear to correlate directly with SFE.
+These results are discussed according to the degree of fatigue crack closure and
+the deformation mode of crack tip zone.
+
+§
+crack growth rate
+# crack growth rates
+crack tip zone
+deformation mode
+fatigue crack closure
+fatigue crack growth
+# fatigue crack growth behavior
+fatigue threshold
+# fatigue threshold values
+# fcg resistance
+# fcg tests
+# high manganese austenitic twip steels
+manganese austenitic twin induced plasticity steel
+# paris regime
+# room temperature
+# sfe
+stacking fault energy
+# stress intensity factor range
+# stress ratio
+# three point bending specimens
+twin induced plasticity steel
+§
+
+[n]   
+
+================================================================================
+
+W2797020782
+
+Nanodiamond for Structural Biomimetic Scaffolds. Bio-mechanically active
+scaffolds for tissue engineering combining hydrophilic polymeric matrix and
+nano-diamond fillers properties are presented and discussed in this paper. The
+resulting scaffolding materials revealed re-markable mechanical and biological
+properties to be exploited in advanced biomedical applications. The novel hybrid
+material is based on 2 and 5 vol-ume % of detonation nano-diamond particles in a
+hydrophilic poly-hydroxyl- ethyl-methacrylate matrix. According to its
+mechanical and biological properties, the nanocomposite shows a hybrid nature.
+The base analytical procedures for the preparation of the hybrid nanocomposites
+and some preliminary mechanical characteristics are presented. The proposed
+hybrid system has been considered for potential biomimetic, osteoconductive and
+osteoinductive scaffolds application in bio-mechanically active bone scaffolds
+for osteoblast, and stem cell differentiation and growth. These more rigid
+hybrid nano-composites are predicted to possess improved mechanical strength
+overcoming the mechanical weaknesses of traditional hydrogels clinically
+utilized for bone regeneration.
+
+§
+# analytical procedures
+bio mechanical property
+# bio mechanically active bone scaffolds
+# bio mechanically active scaffolds
+# biological properties
+biological property
+# biomedical applications
+bone regeneration
+bone scaffold
+detonation nano diamond particle
+# detonation nano diamond particles
+# growth
+# hybrid material
+# hybrid nanocomposites
+hybrid nature
+hydrophilic poly hydroxyl ethyl methacrylate matrix
+hydrophilic polymeric matrix
+# mechanical characteristics
+# mechanical properties
+mechanical property
+mechanical strength
+# mechanical weaknesses
+nano diamond filler
+# nano diamond fillers
+# nanocomposite
+nanodiamond
+# osteoblast
+osteoconductive scaffold
+# osteoconductive scaffolds
+osteoinductive scaffold
+# osteoinductive scaffolds
+poly hydroxyl ethyl methacrylate matrix
+# potential biomimetic
+# preparation
+# rigid hybrid nano composites
+# stem cell differentiation
+structural biomimetic scaffold
+# structural biomimetic scaffolds
+structural scaffold
+tissue engineering
+# traditional hydrogels
+§
+
+[n]   
+
+================================================================================
+
+W2590833728
+
+Effect of sputtering power on optical properties of prepared TiO2 thin films by
+thermal oxidation of sputtered Ti layers. In this research, TiO2 thin films
+prepared via thermal oxidation of Ti layers were deposited by RF-magnetron
+sputtering method at three different sputtering powers. The effects of
+sputtering power on structure, surface and optical properties of TiO2 thin films
+grown on glass substrate were studied by X-ray diffraction XRD, atomic force
+microscopic AFM and UVvisible spectrophotometer. The results reveal that, the
+structure of layers is changed from amorphous to crystalline at anatase phase by
+thermal oxidation of deposited Ti layers and rutile phase is formed when
+sputtering power is increased. The optical parameters: absorption coefficient,
+dielectric constants, extinction coefficient, refractive index, optical
+conductivity and dissipation factor are decreased with increase in sputtering
+power, but increase in optical band gap is observed. The roughness of thin films
+surface is affected by changes in sputtering power which is obtained by AFM
+images.
+
+§
+absorption coefficient
+# afm
+# afm images
+# amorphous
+# anatase phase
+atomic force microscopic
+# atomic force microscopy
+# crystalline
+dielectric constant
+# dielectric constants
+dissipation factor
+extinction coefficient
+# optical band gap
+optical conductivity
+optical parameter
+# optical properties
+optical property
+refractive index
+rf magnetron sputtering method
+roughness
+# rutile phase
+sputtered ti layer
+# sputtered ti layers
+sputtering power
+sputtering power effect
+# structure
+# surface
+surface property
+thermal oxidation
+tio2 thin film
+# tio2 thin films
+uv visible spectrophotometer
+x ray diffraction
+# xrd
+§
+
+[n]   
+
+================================================================================
+
+W2077700457
+
+Simulation of Melting Infiltration Process of Phase Change Material in Fiber
+Porous Ceramic. According to the similarity of the infiltration continuous
+equation and the thermal conductivity differential equations, the infiltration
+model of molten salt to fiber porous ceramic is designed by using Fluent
+software. The results can reflect the actual process of melting infiltration.
+Furthermore, the influences of different infiltration ways on infiltration
+process, with the same volume but different radius pillar, are simulated. It is
+found that infiltration time can be shortened for pillar fibers porous ceramics
+with same volume. When increasing the radius, horizontal infiltration is
+superior to vertical infiltration for pillar fibers porous ceramics when &lt;1
+and vice versa.
+
+§
+# "actual process"
+# "fiber porous ceramic"
+# "fluent software"
+# "horizontal infiltration"
+# "infiltration continuous equation"
+# "infiltration model"
+# "infiltration time"
+# "infiltration ways"
+# "influences"
+# "melting infiltration process"
+# "molten salt"
+# "phase change material"
+# "pillar fibers porous ceramics"
+# "radius pillar"
+# "results"
+# "simulation"
+# "thermal conductivity differential equations"
+# "vertical infiltration"
+# "volume"
+fiber porous
+fiber porous ceramic
+fluent software
+horizontal infiltration
+infiltration model
+infiltration time
+infiltration way
+melting infiltration
+phase change material
+pillar fibers
+pillar fibers porous ceramics
+vertical infiltration
+§
+
+[n]   

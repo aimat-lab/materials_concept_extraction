@@ -31,12 +31,14 @@ def create_work(id, abstract, keywords, openai):
 
 
 def keyword_diff(keywords, openai):
+    openai = openai.replace("-", " ") # chatgpt often includes hyphens
+
     keywords = [l.lower() for l in eval(keywords)]
     openai = [l.lower() for l in eval(openai)]
     return sorted(set(openai) - set(keywords))
 
 
-comp_data = pd.read_csv("fine_tuning/openai_100.csv")
+comp_data = pd.read_csv("fine_tuning/openai_100-120.csv")
 
 m = data.merge(comp_data, on="id", how="inner")
 

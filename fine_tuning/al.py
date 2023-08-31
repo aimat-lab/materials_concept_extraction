@@ -42,8 +42,8 @@ def perform_request(system_prompt, prompt):
 
 def main(
     input_file="",
-    start=0,
-    end=10,
+    start=100,
+    end=120,
 ):
     data = pd.read_csv(input_file).iloc[start:end]
 
