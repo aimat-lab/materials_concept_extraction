@@ -5628,7 +5628,7 @@ electronic property
 laf3 electronic property
 electronic structure calculation
 # electronic structure calculations
-first principle pressure
+first principles pressure
 # gpa
 # incompressible
 lattice parameter
@@ -5810,18 +5810,17 @@ of this fourth-generation alloy would require a much slower strain rate to match
 the creep rate achievable at this temperature.
 
 §
-# alloy cmsx 4
-# alloys tms138a
+alloy cmsx 4
+alloy tms138a
+alloy srr99
 anomalous yield point
-# co
-# cr
 creep deformation
-# creep resistance
+improved creep resistance
 dislocation conformation
 dislocation structure
 # dislocation structures
 drop flow stress
-# flow stress
+flow stress
 fourth generation alloy
 high resolution tem
 # interrupted tests
@@ -5832,7 +5831,7 @@ microstructures interrupted test
 # nibased superalloys
 nickel based superalloy
 secondary slip system
-# segregation
+co cr w segregation
 # single crystal
 single crystal nickel based superalloy
 # softening effect
@@ -5842,13 +5841,13 @@ stacking fault shear
 strain rate
 # temperature
 tensile deformation
-# tensile deformation behavior
+tensile deformation behavior
 # w
 # yield point
 yield stress
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -5900,7 +5899,8 @@ axial loading tester
 # brittle
 # ccd charge coupled device system
 charge coupled device
-delamination
+charge coupled device system
+pzt pt layer delamination
 # displacement
 displacement measurement
 # effect
@@ -5909,15 +5909,15 @@ elastic modulus
 # fracture
 # gage length
 lead zirconate titanate
+lead zirconate titanate platinum thin film
+pzt pt thin film
 load cell
 # maximum capacity
 non contact position measuring system
 # platinum
-platinum thin film
 # principle of capacitance micrometry
-pzt
+capacitance micrometry
 # results
-room temperature
 # scatter
 # size width
 # specimen effects
@@ -5930,7 +5930,7 @@ ultimate tensile strength
 width effect
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -5950,7 +5950,6 @@ extremely low loss appear for several of the lowest order modes operating in the
 millimeter wavelength regime.
 
 §
-ab initio calculation
 # ab initio calculations
 analytical analysis
 # bands of extremely low loss
@@ -5972,16 +5971,15 @@ left handed material
 # lhm
 low loss band
 # lowest order modes
-# metamaterial permeability tensor characteristics
-# metamaterial permittivity
+permeability tensor characteristics
+meta material permittivity
 microstrip guided wave structure
 millimeter wavelength regime
 # realistic use
 # remarkable potential
-resonator
 rod assembly
 split ring resonator
-# split ring resonator rod assemblies
+split ring resonator rod assembly
 # srr metamaterial
 structure mode
 # substrate material
@@ -5989,7 +5987,7 @@ super low loss guided wave band
 # super low loss guided wave bands
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -6024,11 +6022,13 @@ cracked specimen
 cylindrical upsetting sample
 # deep cracked specimens
 fracture mechanic investigation
+fracture mechanic
 # fracture mechanics
 high stress triaxiality
 hydrostatic stress
 low stress triaxiality
 massive forming
+massive forming crack growth
 pre cracked cylindrical upsetting sample
 # pre cracked cylindrical upsetting samples
 shallow cracked tension specimen
@@ -6038,11 +6038,10 @@ single specimen technique
 # state of hydrostatic stress
 stress symmetry plane
 # tension samples
-workpiece
 # workpieces
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -6064,7 +6063,7 @@ significantly improves the dissolving rate and decreases the energy consumption.
 §
 aerospace industry
 aging process
-alcu mgalloy
+alcumg alloy
 # alcumg alloy
 automobile industry
 cold rolling
@@ -6075,16 +6074,17 @@ high strength
 # high temperature
 # long operating time
 low density
-precipitation strengthening
 precipitation strengthening alloy
 pulse electric current
 pulsed electric current
 rapid dissolution
+secondary phase rapid dissolution
+secondary phase dissolution
 secondary phase
 thermal field
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -6102,16 +6102,14 @@ substitutional Ti3+ defects in Al2O3 can take place due to the interaction of
 the defect-induced levels.
 
 §
-alumina
 # association
-atomic structure
+atomic structure investigation
 # atomic structures
 band gap
 bonding interaction
-clustering
 defect induced level
 # defect induced levels
-electronic structure
+electronic structure investigation
 # electronic structures
 extra level
 first principles calculation
@@ -6120,11 +6118,13 @@ first principles calculation
 formation energy
 pseudopotential calculation
 substitutional ti3+ defect
+ti3+ defect in al2o3
 titanium dopant
+titanium dopant in alumina
 # titanium dopants
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -6156,11 +6156,11 @@ moreover, higher cell proliferation was observed on the CoHy without AgNPs,
 indicating the regenerative potentials of the RSF/CMC composite hydrogels.
 
 §
-# adhesion density
+adhesion density
 agar diffusion test
 # agar diffusion tests
 # agnps
-# antimicrobial agents
+antimicrobial agent
 # antimicrobial properties
 biomedical application
 # biomedical applications
@@ -6198,6 +6198,7 @@ regenerative potential
 silk fibroin
 silk fibroin capability
 silver doped silk fibroin
+
 # silver doped silk fibroin/carboxymethyl cellulose nanocomposite hydrogels
 # silver nanoparticles
 staphylococcus aureus
@@ -6236,19 +6237,21 @@ Elsevier B.V. All rights reserved.
 §
 bulk metallic glass
 # c2010 elsevier b.v.
-# complete shear band
-# complex stress states
+complete shear band formation
+complex stress states
 # defects
 # experimental results
 # highest normal stress
 # modified criterion
 # modified maximum shear stress
 # msp criterion
+modified shear plane criterion
 normal stress
 packard and schuh
 # physical boundaries
 physical boundary
 shear band formation
+shear band formation criterion
 # shear band initiation
 shear band path
 shear plane criterion
@@ -6258,7 +6261,7 @@ shear yield stress
 stress state
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -6283,7 +6286,7 @@ well as its dependence on the implant dose and energy are discussed.
 
 §
 annealing
-# arsenic
+boron arsenic segregation
 arsenic segregation
 atomistic kinetic monte carlo simulation
 # atomistic kinetic monte carlo simulations
@@ -6292,6 +6295,7 @@ atomistic kinetic monte carlo simulation
 # boron
 boron segregation
 continuum downscaling
+mosfet device continuum downscaling 
 # current
 # d.e. ward
 # dependence
@@ -6327,18 +6331,18 @@ saturation model
 # segregation
 segregation model
 # segregation of dopants
-# si/sio2 interface
+si sio2 interface
 # source
 source and drain performance
 # tech. dig. int. electron devices meet.
 # ted
 # test
-# transient enhanced diffusion
+transient enhanced diffusion
 ultra shallow junction formation
 # y. s. oh
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -6357,7 +6361,6 @@ Speed of their
 §
 airfield construction
 # airfields
-alternative type material
 # alternative types
 # article
 # author
@@ -6390,11 +6393,11 @@ production technology
 # prospects
 # researches
 road construction
-# speed
+# speeds
 # use
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -6414,8 +6417,8 @@ changes of the present precipitates.
 §
 # applied strain rate
 # compression
-compression at elevated temperature
-# compression flow curves
+elevated temperature compression 
+compression flow curves
 constitutive equation
 # elevated temperatures
 flow behavior
@@ -6433,12 +6436,12 @@ present precipitate
 strain rate
 # strain rates
 # thixocast a356 al alloy
-thixocast alsi mg alloy
+thixocast alsimg alloy
 # thixocast alsimg alloy
 work hardening behavior
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -6461,7 +6464,7 @@ temperature and lowered the crystallite growth rate during sintering.
 aging effect
 anatase lattice
 # anatase rutile
-anataserutile ar tio2 phase transformation
+anatase rutile ar tio2 phase transformation
 # ar tio2
 # calcination
 crystalline phase
@@ -6487,12 +6490,12 @@ sintering property
 thermogravimetry
 tio2 gel
 # tio2 gels
-# tio2 powders
+tio2 powder
 x ray diffractometer
 # xrd
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -6523,19 +6526,18 @@ boundary condition
 cfrp sheet
 # cfrp sheets
 # complete slab
-corrosion
+severe corrosion
 damaged t joist
 # damaged t joists
 # degree of embedding
 fixed ended
 flexural strengthening
-# healthy t joist
+healthy t joist
 # initial safety
-# isolated t joists
+isolated t joist
 # large number
 # light cfrp strengthening
 load factor
-load factor (lf)
 load test
 # lower reinforcement
 # necessary intervention
@@ -6543,13 +6545,12 @@ load test
 residual safety
 safety reserve
 # severe corrosion
-simply supported
 simply supported t joist
 # structure in use
 # variable number
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
