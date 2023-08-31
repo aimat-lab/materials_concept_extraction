@@ -3994,6 +3994,7 @@ crystallographic orientation relationship
 electron diffraction technique
 # extruded
 extruded alloy
+extruded mgznzr alloy
 fine dispersed mgzn particles
 # fine dispersed particles
 grain refinement
@@ -4006,7 +4007,6 @@ mg alloy
 microstructure
 # microstructures
 # nanometers
-orientation relationship
 # particle number density n
 rare earth element
 # rare-earth element y
@@ -4021,16 +4021,17 @@ tensile strength
 # ternary wmg3zn3y2 phase
 transmission electron microscope
 # ultimate tensile strength
-# w phase
+relationship w phase mg matrix
+w phase
+mg matrix
 # wmg3zn3y2 ternary phase
-wmg3zny2 ternary phase
-# y additions
+wmg3zn3y2 ternary phase
+y addition
 # yield strength
 # zk60 alloys
-zr alloy
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -4065,6 +4066,7 @@ calcite morphology
 crystal
 crystal formation
 crystallization
+crystallization phenomenon
 # crystallizations
 # drainage pipe exits
 groundwater level
@@ -4073,29 +4075,29 @@ groundwater ph
 # inner surface
 # inner wall
 ion in groundwater
-kinetics effect
+kinetic effect
 # laboratory tests
 # larger load
 # morphology
 # ph of groundwater
 # phenomenon
 sem
-# sem images
+sem image
 # similar situations
 # site investigations
 # solutions
 # special materials
 # steps
 tunnel drainage pipe
+tunnel drainage pipe blocking
 # tunnel drainage pipes
-tunnel support structure
 # under construction
 # valuable results
 x ray diffraction
 # xrd
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -4141,8 +4143,8 @@ granato lcke model
 matrix phase
 # mechanical properties
 mechanical property
-# mg matrix
-# mgzn2 precipitates
+relationship 1 phase mg matrix
+1 mgzn2 precipitate
 # mobile dislocations
 # modified granato-locke g-l model
 # phase
@@ -4157,7 +4159,7 @@ mechanical property
 zk60 magnesium alloy
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -4204,13 +4206,13 @@ laser power
 # losses
 # metal
 metal oxidation
-# metal-oxide surfaces
+metal oxide surface
 # metals
-# metals without native oxide layers
+metal without native oxide layer
 native oxide layer
 # oxidation
 oxide crystal growth
-# oxide film
+oxide film
 oxide layer growth
 # oxide-air surface
 parabolic rate law
@@ -4225,13 +4227,13 @@ temperature gradient in oxide film
 # thickness of the oxide layer
 # time
 # transition regime
-# vanadium/vanadium oxide systems
-# wagner parabolic law
+vanadium vanadium oxide systems
+wagner parabolic law
 wagner thickness
 # wagner thickness region
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -4250,16 +4252,21 @@ thickness and composition of the film.
 §
 amorphous thin film
 # amorphous thin films
+amorphous to crystalline
+amorphous to crystalline structural transformation
 annealed sample
 # annealed samples
 atomic composition
 # atomic compositions
-# composition dependence
+composition dependence 
+composition dependence electrical property
 # crystalline
 # electrical properties
 electrical property
 electrical resistivity
 evaporated thin film
+evaporated sbse thin films
+sbse thin films
 # film
 hall voltage
 heat treated sample
@@ -4272,14 +4279,13 @@ resistance fall
 sharp fall of resistance
 simultaneously evaporated thin film
 structural transformation
-temperature range
 thermoelectric power
 # thickness
 three temperature method
 # three-temperature method
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -4317,6 +4323,7 @@ by two-dimensional properties 2D. 2006 WILEY-VCHVerlag GmbH & Co. KGaA, Weinheim
 
 §
 adsorbate
+adsorbate contact
 # adsorbates
 # atomically smooth hydrogen terminated surfaces
 # comprehensive summary
@@ -4332,6 +4339,7 @@ density of state distribution
 diamond immersed in electrolyte
 drain source conductivity
 electrolyte
+electrolyte contact
 # electrolytes
 # electron transfer
 # empty states
@@ -4343,14 +4351,14 @@ hall effect
 # holes
 holes propagation
 # homoepitaxially grown cvd diamond films
-# ion sensitive field effect transistors
-# isfet
+ion sensitive field effect transistor
+isfet
 # leakage currents
 # mobilities
 nernst law
 numerical solution
 # oxidation threshold
-# partial surface oxidation
+partial surface oxidation
 # perfect interface
 # ph
 poisson equation
@@ -4359,22 +4367,21 @@ redox couple
 # redox couples
 scanning electron microscopy
 schrodinger equation
-# sem
-# sheet hole density
-# surface electronic properties
+sem
+sheet hole density
 surface electronic property
 surface oxidation
 transfer doping model
 tunneling gap
 two dimensional property
 # two-dimensional properties
-# undoped hydrogen terminated diamond
-# unoccupied valence band states
-# valence band
+undoped hydrogen terminated diamond
+unoccupied valence band state
+valence band
 virtual gate insulator
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -4396,11 +4403,11 @@ constraints.
 # 0.2% proof stress
 as cast mgal alloy
 # as-cast
-# casting
+casting
 casting spring back
 # cools down
 # different degrees
-# dislocation density
+dislocation density
 dislocation density increase
 # effect
 # ejection
@@ -4414,7 +4421,7 @@ initial flow behavior
 low flow stress
 metal shrinkage
 metallic mould
-# mgal alloys
+mgal alloy
 mould constraint
 # mould constraints
 plastic deformation
@@ -4434,7 +4441,7 @@ uneven temperature distribution
 yield strength
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -4458,43 +4465,46 @@ the solder as small particles.
 §
 # 63sn37pb
 au layer
+au pad
+ni pad
+cu pad
 au layer dissolution
 au sn intermetallics
 au sn4
-au/ni/cu pad
-# ausn intermetallics
+ausn intermetallic
 # ausn4
 # bumping
 # continuous layer
 # diffusion
 # distribution
-electronic packaging
+electronic packaging area
+eutectic solder
 # electronic packaging area
 # formation mechanism
 # interface
 interfacial reaction
-# intermetallic compounds
+intermetallic compound
 # intermetallic phase
 intermetallic phase formation
 # laser heating
 laser input energy
 laser reflow
 # morphology
-needle like particles
+needle like particle
 # needle-like particles
 numerical modeling
 # potential technique
-reaction kinetics
+reaction kinetic
 # results
 scanning electron microscopy
-# sem
+sem
 # small particles
 snpb eutectic solder
 # solder
 # solder/au pad interface
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -4522,8 +4532,8 @@ which hinder the performance of thehave also been discussed. This article is
 protected by copyright. All rights reserved.
 
 §
-# active layer component
-# advanced interfacial layers
+fapbi3 active layer component
+advanced interfacial layers
 # associated parameters
 # challenges
 charge selective contact
@@ -4536,8 +4546,7 @@ degradation mechanism
 device stability
 # device structures
 # devices performance
-# ease of production
-# fapbi3
+ease of production
 fill factor
 # flexibility
 grain size
@@ -4549,26 +4558,21 @@ lightweight
 long diffusion length
 # long-term device stability
 # low cost
-# maximum shockley-queisser sq limit
-# morphology of perovskite material
+maximum shockley queisser limit
+perovskite material morphology 
 open circuit voltage
 # open-circuit voltage
-# pce
-performance
+pce
 performance enhancement
-perovskite
 perovskite solar cell
-perovskite solar cells
 # photocurrents
-shockley queisser
 shockley queisser limit
 solar cell
 structural development
 # tailoring of the device structure
-uniformity
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -4595,7 +4599,9 @@ devices.
 anodized metal
 # anodized metals
 biocompatibility
-# biocompatibility of ti-30ta nanotubes
+tita alloy
+tita nanotube biocompatibility
+tita nanotube
 # biomimetic nanoscale topographies
 biomimetic nanoscale topography
 cellular analysis
@@ -4610,24 +4616,22 @@ extracellular matrix
 # extracellular matrix production
 # fibroblast functionality
 # h2so4
-# hdf
+hdf
 # hf
 human dermal fibroblast
 # human dermal fibroblasts
 implantable device
 # implantable devices
-nanotube
-# nanotube formation
+nanotube formation
 # nanotubes
 # neonatal
 neonatal fibroblast
 # oxidation
 # surface energy
 # ti-30ta alloy
-titanium alloy
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -4663,15 +4667,15 @@ diffusion kinetic
 fluctuation dissipation theorem
 # fluctuation-dissipation theorem
 generalized langevin equation
-# microscopic cross-correlation effects
+microscopic cross correlation effect
 # modelling
 molecular dynamic calculation
 molecular dynamic data
 # molecular dynamics calculations
 mori zwanzig formalism
 # mori-zwanzig formalism
-# nial
-# nizr
+nial melt
+nizr melt
 # ordering
 ordering tendency
 statistical mechanical analysis
@@ -4680,7 +4684,7 @@ tracer diffusion coefficient
 # tracer diffusion coefficients
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -4714,7 +4718,7 @@ Silver nanoparticles on porous titanium
 # 3d printed titanium scaffolds
 3d scaffold
 # 3d scaffolds
-ag nanoparticles
+silver nanoparticle
 # antibacterial properties
 antibacterial property
 bulk titanium
@@ -4727,30 +4731,30 @@ cortical bone
 electrochemical bioactivation
 # electrochemically bioactivated
 electrochemically bioactivated ti6al4v3 porous scaffold
+ti6al4v3 porous scaffold
 electrolytic oxidation
 # experimental results
 gram negative bacteria
 gram positive bacteria
 # gram-negative bacteria
 # gram-positive bacteria
-# in vitro evaluation
+in vitro evaluation
 # mechanical properties
 # minimal pore diameters
 minimal surface
 osteoblast cell
-# osteoblast cell activity
-# osteoblast cell growth
-# osteoinductive properties
-# peo-modified tpms architecture
+osteoblast cell activity
+osteoblast cell growth
+osteoinductive property
+peo modified tpms architecture
 plasma electrolytic oxidation
 # pore size
-# porous bioactive implants
+porous bioactive implant
 porous scaffold
-# porous titanium
+porous titanium
 quasi elastic modulus
 # quasi-elastic modulus
 # scaffold architectures
-silver nanoparticles
 # smooth local topology
 surface bioactivity
 # ti6al4v3 d porous scaffolds
@@ -4761,7 +4765,7 @@ triply periodic minimal surface
 # wrinkle-free
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -4798,8 +4802,8 @@ concrete foundation system
 # concrete mixture
 # correlations
 crushed quartz
-# dense particle packing
-# energy storage foundation system
+dense particle packing
+energy storage foundation system
 # experimental investigation
 fine powder
 # fine powders
@@ -4817,8 +4821,9 @@ particle packing
 # preliminary test results
 reactive powder
 reactive powder concrete
-# reinforced concrete
-# renewable energy
+reinforced concrete foundation system
+renewable energy
+renewable energy storage
 silica fume
 silica fume content
 # strength
@@ -4829,7 +4834,7 @@ water to binder ratio
 # water-to-binder ratio
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
