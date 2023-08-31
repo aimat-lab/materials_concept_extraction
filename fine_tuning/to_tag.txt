@@ -4860,23 +4860,22 @@ Al powder compacts.
 cold uniaxial pressing
 diffusion process
 # diffusion processes
-elemental ti and al powders
-exothermic reaction
+elemental ti powder
+elemental al powder
+exothermic reaction shs
 high energy milling
-high energy milling milling
 # high-energy milling
-# ignition temperature
+ignition temperature
 # influence
 isostatic pressing
 # key parameter
 obtaining tial
-# powder additions
+powder addition effect
 pre sintering
 # pre-sintered
 # shs
 shs reaction
 sintering cycle
-sintering cycle cycle
 # sintering process
 # sintering stage
 sintering temperature
@@ -4886,7 +4885,7 @@ tial obtainment
 # uncontrolled processes
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -4903,7 +4902,6 @@ blocking characteristics, there were no degradations of the SiCirradiated at
 even after irradiated at 10.4 MGy.
 
 §
-# 4hsic vertical power metal-oxide-semiconductor field effect transistors
 absorbed dose
 blocking characteristic
 # blocking characteristics
@@ -4912,6 +4910,7 @@ blocking characteristic
 # drain current
 drain current gate voltage curve
 electrical characteristic
+field effect transistor
 # electrical characteristics
 gamma ray irradiation
 # gamma-ray irradiation
@@ -4920,18 +4919,19 @@ high temperature
 irradiation
 # leakage
 leakage current
+metal oxide semiconductor 
 metal oxide semiconductor field effect transistor
 mosfet
 # negative voltage side
 power vertical metal oxide semiconductor field effect transistor
-power vmosfet
+power v mosfet
 radiation response
-# sic
+sic characteristic change
 silicon carbide
 # threshold voltage
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -4965,12 +4965,12 @@ curvature driven growth
 curve
 # curves
 data structure
-disappearance of edge
+edge disappearance
 # disappearance of edges
-disappearance of grain
+grain disappearance
 # disappearance of grains
 # discretization
-# dissipative system
+dissipative system
 # flexible simulation
 # general energies
 # general mobilities
@@ -4982,13 +4982,12 @@ large system
 materials science
 mesoscale simulation
 mullins equation
-nonlinear boundary condition
+non linear boundary condition
 # nonlinear boundary conditions
-nonlinear evolution equation
+non linear evolution equation
 # nonlinear evolution equations
 simulation
 # statistical significance
-surface
 # surfaces
 # theory
 # three dimensions
@@ -4998,9 +4997,10 @@ triple point
 # triple points
 # two dimensions
 # variational approach
+solving system of non linear evolution equation
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -5022,7 +5022,6 @@ experimentally is compared with an analytical solution as well as a finite
 element analysis of the problem.
 
 §
-analytical solution
 # as large as 60
 crystallographic relation
 # deviations
@@ -5033,9 +5032,8 @@ external stress axis
 # fesi foil
 finite element analysis
 # foil
-foil strain
-hole
 in situ transmission electron microscopy
+in situ strained foil
 # investigated in detail
 # local changes
 local stress modification
@@ -5054,10 +5052,10 @@ tensile stress axis
 # tensile stress direction
 # transmission electron microscope
 transmission electron microscopy
-# uniaxial straining
+uniaxial straining
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -5076,7 +5074,10 @@ and glide of partial dislocations, the kinetics of which are quantified by means
 of DXS.
 
 §
-# 6h polytypic transition
+crystal stability
+sic single crystal
+sic single crystal stability
+6h polytypic transition
 diffuse intensity
 diffuse x ray scattering
 # diffuse x-ray scattering
@@ -5097,6 +5098,7 @@ silicon carbide single crystal
 # simulation
 # stability
 stacking fault
+high density of stacking fault
 # stacking faults
 # tem
 # temperature
@@ -5108,7 +5110,7 @@ transmission electron microscopy
 # volume fraction
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -5137,7 +5139,7 @@ and the explicit dependence of in-plane shear loading was observed.
 aluminum single crystal
 # angular-dependent interatomic potential adp
 # atomic-scale mechanism
-# atomistic simulation
+atomistic simulation
 crack growth
 # crack tip
 crack tip deformation event
@@ -5147,15 +5149,15 @@ critical stress intensity factor
 # critical stress intensity factor for the onset of crack growth
 dislocation activity
 # effect of hydrogen
-# emitted partial dislocations
+partial dislocation activity
 # front crack system model
 # hydrogen concentration
-# hydrogen embrittlement
+hydrogen embrittlement
 hydrogen induced cracking
 hydrogen locking
 # hydrogen locking of dislocations
 # hydrogen-induced cracking
-# in-plane shear loading
+in plane shear loading
 # incipient crack tip event
 # inhibited activities
 interatomic potential
@@ -5174,7 +5176,7 @@ molecular dynamic
 von mises atomic shear strain analysis
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -5199,11 +5201,11 @@ increases the work hardening and fracture occurrence in the aluminum alloy
 powder during the milling, affecting the structural evolution of the composite.
 
 §
-# aa2124 aluminum alloy powder
-# aa2124 sic composite
+aa2124 aluminum alloy powder
+aa2124 sic composite
 # al alloy-sic nanocomposites
 aluminum alloy matrix
-aluminum alloy powder
+aluminum alloy powder sic particle mixture
 argon atmosphere
 composite powder
 crystallite size
@@ -5238,7 +5240,7 @@ x ray peak broadening
 # xrd analysis
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -5265,8 +5267,9 @@ employed for cell immobilization and their applications in tissue engineering.
 bio analytics
 bio synthesis
 # bioanalytics
-# biomaterials-based 3-d scaffolds
+biomaterial based 3d scaffold
 cell immobilization
+cell immobilization strategy
 cell localization
 cell therapy
 # cell therapy applications
@@ -5282,15 +5285,16 @@ entrapment
 # loss
 mammalian cell immobilization technique
 # mammalian cell immobilization techniques
-# mammalian cells
+mammalian cell
 # material
 matrix material
 # matrix materials
-# microbial cells
+microbial cell
 physical adsorption
 physio chemical property
 # physio-chemical properties
-# plant cells
+plant cell
+insect cell
 # process
 # recent trends
 regenerative medicine
@@ -5302,11 +5306,11 @@ self aggregation
 # specific regions
 tissue engineering
 tissue function
-# transplantation
+immobilized cell transplantation
 # various types
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -5328,7 +5332,7 @@ the coating, and hence nano-coating could remain the good fire-resistant
 properties even after 500 h salt spray test.
 
 §
-ammonium polyphosphate
+ammonium polyphosphate pentaerythritol melamine coating
 # ammonium polyphosphate-pentaerythritol-melamine
 # app-per-mel coating
 chemical action
@@ -5350,7 +5354,6 @@ flame retardant nano coating
 intumescent nano coating
 # intumescent nano-coating
 # lambda/d
-melamine
 nano coating
 nano concentrate
 nano sio2 particle
@@ -5363,14 +5366,14 @@ salt spray condition
 salt spray test
 scanning electron microscopy
 # sem
-# traditional flame retardant coating
+traditional flame retardant coating
 # uniformly dispersed nano-sio2 particles
 x ray photoelectron spectroscopy
 # x-ray photoelectron spectroscopy
 # xps
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -5394,6 +5397,7 @@ is less than an order of magnitude.
 §
 # alloy
 # amorphous
+amorphous form obtainment
 amorphous alloy
 atomic structure
 cooling rate
@@ -5401,7 +5405,7 @@ crystal structure
 # crystalline
 crystalline alloy
 dodecane
-# fe75si15b10
+fe75si15b10 alloy
 gas water atomization
 # gas-water atomization
 # gas-water-atomized particles
@@ -5420,7 +5424,7 @@ spark erosion
 spark erosion in liquid argon
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -5447,7 +5451,6 @@ effect of membranes characteristics was discussed.
 §
 # ammonia
 ammonia removal
-ammonia removal (md)
 ammonia removal from wastewater
 # asymmetric membranes
 # asymmetrically structured polyvinylidene fluoride pvdf hollow fibre membranes
@@ -5455,10 +5458,8 @@ ammonia removal from wastewater
 # hollow fibre md modules
 hollow fibre membrane
 hollow fibre membrane module
-hollow fibre membrane module (hfm)
 # hydrophobicity
 industrial wastewater
-industrial water
 # industrial waters
 liquid membrane interface
 liquid vapour equilibrium
@@ -5477,13 +5478,13 @@ polyvinylidene fluoride hollow fibre membrane
 # porosity
 # process selectivity
 # results
-# simulated industrial wastewater
+simulated industrial wastewater
 # surface roughness
 sweep gas
 sweep gas md configuration
 sweep gas membrane distillation
 # thickness
-# thin skin layer
+thin skin macrovoids layer
 # vapour
 volatile compound removal
 # volatile compounds
@@ -5491,7 +5492,7 @@ volatile compound removal
 # zeta potential
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -5560,15 +5561,15 @@ activated carbon
 # adsorbents
 # adsorption
 adsorption flow rate
-adsorption of co2
+co2 adsorption
+co2 adsorption capacity
 adsorption temperature
-breakthrough time
 carbon dioxide capture
 # chemically activation
 # co2
 co2 adsorption capacity
 co2 capture
-impregnation ratio
+koh impregnation ratio
 # impregnation ratio of koh
 # koh
 # low cost
@@ -5586,7 +5587,7 @@ waste tire
 waste tire derived activated carbon
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -5621,15 +5622,15 @@ elastic constant
 # elastic constants
 # elastic properties
 elastic property
+laf3 elastic property
 # electronic properties
 electronic property
+laf3 electronic property
 electronic structure calculation
 # electronic structure calculations
-experimental data
-first principles
+first principle pressure
 # gpa
 # incompressible
-# laf3
 lattice parameter
 # lattice parameters
 local density approximation
@@ -5645,10 +5646,13 @@ quasi harmonic approximation model
 sound velocity
 # thermodynamic properties
 thermodynamic property
-# tysonite structure
+laf3 thermodynamic property
+tysonite structure
+tysonite phase
+laf3 tysonite phase
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -5687,7 +5691,7 @@ micro sized carbon particle
 # micro-sized carbon particle
 nano sized carbon particle
 # nano-sized carbon particles
-# nano-sized silica particles
+nano sized silica particle
 # non-modified silica particles
 organic inorganic composite material
 # organic/inorganic composite material
@@ -5699,12 +5703,11 @@ pressure sensitive effect
 pressure sensor
 # previous study
 # sensing performance
-silica particle
 surface modified silica
 # vol%
 §
 
-[n]   
+[y]   
 
 ================================================================================
 
@@ -5752,48 +5755,34 @@ cell repellency
 # cell repellent
 chemical crosslinking
 clinical application
-# controlled bacteriostasis
+controlled bacteriostasis
 crosslink density
 crosslink density enhancement
 crosslinking efficiency
-# cytotoxic effects
+cytotoxic effect
 drug resistant bacteria
 # eliminate bacteria
 # high crosslink density
 # highly crosslinked surface
 immobilized tea polyphenols
 # implant site
-in vitro
-in vivo
-molecular weight
 # nature source
 oxidation resistance
 oxidation stability
 periprosthetic joint infection
 # prosthesis failure
-radiation
 radiation crosslinking
-radiation crosslinking agent
-radiation crosslinking effect
-radiation crosslinking efficiency
-radiation crosslinking enhancement
-radiation crosslinking material
-radiation crosslinking mechanism
-radiation crosslinking method
-radiation crosslinking methodology
-radiation crosslinking process
-radiation crosslinking protocol
-radiation crosslinking treatment
 # release of tea polyphenol
 # ros
-service life
+service life prolongation
 # storage time
 tea polyphenol
 tea polyphenol extraction
-tea polyphenol/uhwmpe
+cross linked tea polyphenol uhmwpe
 # total joint implants
 total joint replacement
+uhmwpe
 ultrahigh molecular weight polyethylene
 §
 
-[n]   
+[y]   
