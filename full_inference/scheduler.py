@@ -7,14 +7,21 @@ import pandas as pd
 import os
 
 MAX_JOB_ID = 221_919
-STEP_SIZE = 3000
-BATCH_SIZE = 25
+STEP_SIZE = 2000
+BATCH_SIZE = 20
 SHELL_JOB_FOLDER = "sjobs/"
+
+VARIANT = "13B-v2"
+MODEL = "ft-xxl"
+TIME = "02:00:00"
+
+# ~25min per 500 abstracts
+# == 2h for 2000 abstracts
 
 SHELL_TEMPLATE = """#!/bin/sh
 #SBATCH --partition=gpu_4_a100
 #SBATCH --gres=gpu:1
-#SBATCH --time=03:00:00
+#SBATCH --time=$TIME$
 #SBATCH --job-name=finf-{job_id}
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -26,14 +33,14 @@ module load devel/cuda/11.8
 source $HOME/miniconda3/etc/profile.d/conda.sh
 
 python3 -u full_inference.py \\
- --llama_variant 13B \\
- --model_id full-finetune-100 \\
+ --llama_variant $VARIANT$ \\
+ --model_id $MODEL$ \\
  --start {job_id} \\
  --n {step_size} \\
  --input_file data/works.csv \\
  --batch_size {batch_size} \\
- --max_new_tokens 512
-"""
+ --max_new_tokens 650
+""".replace("$VARIANT", VARIANT).replace("$MODEL$", MODEL).replace("$TIME$", TIME)
 
 logging.basicConfig(
     level=logging.INFO,
@@ -180,7 +187,7 @@ class Scheduler:
 jh = JobHandler("jobs.csv")
 sc = Scheduler(jh, max_jobs=2)
 
-SLEEP_AMOUNT = 60 * 60  # 1 hour
+SLEEP_AMOUNT = 30 * 60  # 30 min
 
 if __name__ == "__main__":
     scheduler = Scheduler(jh, max_jobs=10)

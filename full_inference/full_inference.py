@@ -30,7 +30,7 @@ def get_model_and_tokenizer(llama_variant, model_id):
 def get_prepared_data(input_file, start, n):
     df = pd.read_csv(input_file).iloc[start : start + n][["id", "abstract"]]
     df.abstract = df.abstract.apply(
-        lambda text: "<s>" + text + "\n\n\n###\nKEYWORDS:\n###\n\n\n"
+        lambda text: "<s>" + text + "#KEYWORDS#"
     )
     return df
 
@@ -68,7 +68,7 @@ def generate_batch(model, tokenizer, batch, max_new_tokens):
 
 
 def extract_concepts(batch_texts):
-    CONCEPTS_START = "###\nKEYWORDS:\n###"
+    CONCEPTS_START = "#KEYWORDS#"
     return [text.split(CONCEPTS_START)[1].strip() for text in batch_texts]
 
 
