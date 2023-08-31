@@ -48,7 +48,6 @@ def main(
     llama_variant="7B",
     train_file="./data/train.csv",
     output_dir="finetuned",
-    continue_finetuning=False,
     size_train_dataset=1,
     tokenizer_max_length=1024,
     num_epochs=2,
@@ -138,10 +137,7 @@ def main(
 
     model = prepare_model_for_int8_training(model) # inclued in both cases?
 
-    if continue_finetuning:
-        model = PeftModel.from_pretrained(model, OUTPUT_MODEL_PATH) # load from finetuned model
-    else:
-        model = get_peft_model(model, config)
+    model = get_peft_model(model, config)
 
     model.print_trainable_parameters()
 
