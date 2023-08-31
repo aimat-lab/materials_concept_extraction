@@ -132,7 +132,7 @@ structural analysis. To measure the specific magnetization as a function of
 temperature in the range of, the pondero-motive method was used.
 
 §
-$ni$ nanowire
+ni nanowire
 alumina membrane
 atomic force microscopy
 electrochemical processing
@@ -146,8 +146,8 @@ nanowire filling
 pondero motive method
 scanning electron microscopy
 structural analysis
-template assisted $ni$ nanowire fabrication
-$ni$ nanowire fabrication
+template assisted ni nanowire fabrication
+ni nanowire fabrication
 through pore alumina membrane
 x ray structural analysis
 §
@@ -828,7 +828,7 @@ the interconnectivity has not been broken. This produced reasonably high
 ductility for the 20241.5TiC nanocomposite.
 
 §
-$al$ grain boundary
+al grain boundary
 average cell size
 circle network
 casting method
@@ -1028,8 +1028,8 @@ balanced manganese
 # capability
 # effectiveness
 # efficiency
-extra $mn$ addition
-$fe$ rich intermetallic
+extra mn addition
+fe rich intermetallic
 # fe-rich intermetallics
 # fundamentals
 # high quality
@@ -1045,7 +1045,7 @@ recycling aluminium alloy
 scrapped material
 secondary aluminium alloy
 # sediment solid
-sediment solid $fe$ rich intermetallic
+sediment solid fe rich intermetallic
 thermodynamic assessment
 thermodynamic calculation
 §
@@ -1152,7 +1152,7 @@ metal semiconductor interface
 # metal/semiconductor interface
 # modified richardson plots
 # ni/ptschottky contacts
-$ni$ $pt$ schottky contact
+ni pt schottky contact
 richardson constant
 richardson plot
 schottky barrier inhomogeneity
@@ -1333,7 +1333,7 @@ to the ceramic was a Ti-oxide, TiO. orig.
 
 §
 active metal brazing
-$ag$ $cu$ $ti$ filler metal
+ag cu ti filler metal
 # ag-35cu-1.65ti filler metal
 biomedical application
 # biomedical applications
@@ -1394,7 +1394,7 @@ respectively.
 
 §
 # activation energy
-as deposited $ni$ gasb diode
+as deposited ni gasb diode
 # as-deposited ni/n-gasb diode
 barrier height
 barrier height inhomogeneity
@@ -1408,7 +1408,7 @@ junction characteristic
 # junction characteristics
 mean barrier height
 # modified richardson plot
-$ni$ gasb schottky diode
+ni gasb schottky diode
 # ni/n-gasb schottky diode
 # richardson constant
 schottky barrier
@@ -1912,7 +1912,7 @@ vacuum.
 
 §
 # 15 vol.% sic particulates
-$al$ alloy
+al alloy
 # closure levels
 # corrosion
 corrosion fatigue
@@ -1929,7 +1929,7 @@ particulate reinforcement
 particulate reinforced alloy
 sic particulate
 # sic particulates
-spray formed $al$ alloy
+spray formed al alloy
 spray formed particulate reinforced metal matrix composite
 # unreinforced alloy
 §
@@ -2070,8 +2070,8 @@ Nss,and Io and higher values of RR and Rsh.
 
 §
 # acceptor atoms
-$al$ p-si ms diode
-$al$ c20h12 p-si mps diode
+al p-si ms diode
+al c20h12 p-si mps diode
 # al/p-si ms
 capacitance voltage measurement
 current voltage measurement
@@ -2446,7 +2446,7 @@ respectively.
 
 §
 # b
-$b$ doped sample
+b doped sample
 # b4c
 b4c doped sample
 # composition
@@ -2758,7 +2758,7 @@ caused by the wide range in powder particle siz...
 
 §
 # aggregates
-$al$ matrix
+al matrix
 # al13cr2
 # al18mg3cr2
 # al3mg2
@@ -2769,7 +2769,7 @@ coarse band
 # equilibrium phases
 # experiments
 # extruded
-extruded $al$ alloy
+extruded al alloy
 extruded microstructure
 # extrusion
 extrusion shear zone
@@ -3620,7 +3620,7 @@ bcc grain formation
 crack tip
 # fcc phase
 # fe
-$fe$ crack tip grain nucleation
+fe crack tip grain nucleation
 crack tip grain nucleation
 grain nucleation
 # increasing temperature
@@ -3928,7 +3928,7 @@ creep deformation
 creep deformation characteristic
 # creep flow
 creep rupture strength
-$cu$ $nb$ composite
+cu nb composite
 # cu-20%nb
 diffusion mechanism
 # diffusion mechanisms
@@ -3949,7 +3949,7 @@ rupture characteristic
 stress exponent
 # stress exponents
 wire drawn composite
-wire drawn $cu$ $nb$ composite
+wire drawn cu nb composite
 # wire-drawn
 §
 
