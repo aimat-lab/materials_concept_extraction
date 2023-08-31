@@ -5,6 +5,7 @@ import logging
 from datetime import datetime
 import pandas as pd
 import os
+import sys
 
 MAX_JOB_ID = 221_919
 STEP_SIZE = 2000
@@ -42,11 +43,25 @@ python3 -u full_inference.py \\
  --max_new_tokens 650
 """.replace("$VARIANT", VARIANT).replace("$MODEL$", MODEL).replace("$TIME$", TIME)
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    filename="scheduler.log",
-)
+def setup_logger(file, level=logging.INFO, log_to_stdout=True):
+    logger = logging.getLogger()
+    logger.setLevel(level)
+    formatter = logging.Formatter(
+        "%(asctime)s | %(levelname)s | %(message)s", "%H:%M:%S"
+    )
+
+    if log_to_stdout:
+        stdout_handler = logging.StreamHandler(sys.stdout)
+        stdout_handler.setFormatter(formatter)
+        logger.addHandler(stdout_handler)
+
+    file_handler = logging.FileHandler(file)
+    file_handler.setFormatter(formatter)
+    logger.addHandler(file_handler)
+
+    return logger
+
+logger = setup_logger("scheduler.log", level=logging.DEBUG)
 
 
 def valid(lst):
@@ -68,18 +83,18 @@ class Slurm:
         Slurm.create_shell_script(
             full_path, job_id=job_id, batch_size=BATCH_SIZE, step_size=STEP_SIZE
         )
-        logging.info(f"sbatch {full_path}")
+        logger.info(f"sbatch {full_path}")
         Slurm.execute(f"sbatch {full_path}")
 
     @staticmethod
     def create_shell_script(path, **kwargs):
-        logging.info(f"Creating shell script: {path}")
+        logger.info(f"Creating shell script: {path}")
         with open(path, "w") as f:
             f.write(SHELL_TEMPLATE.format(**kwargs))
 
     @staticmethod
     def execute(cmd):
-        logging.debug(f"Executing: {cmd}")
+        logger.debug(f"Executing: {cmd}")
 
         return subprocess.run(
             cmd, shell=True, capture_output=True, text=True
@@ -143,7 +158,7 @@ class Scheduler:
         finished = set(self.jh.get_open_jobs()) - set(
             self.submitted_job_ids()
         )  # still open but not submitted anymore = finished
-        logging.info(f"Finished jobs: {sorted(finished)}")
+        logger.info(f"Finished jobs: {sorted(finished)}")
         self.jh.save_finished_jobs(finished)
 
     def submitted_job_ids(self):
@@ -156,27 +171,27 @@ class Scheduler:
             raise RuntimeError("Too many jobs submitted")
 
         if job_id > MAX_JOB_ID:
-            logging.info("Processed all jobs")
+            logger.info("Processed all jobs")
             exit(0)
 
         self.slurm.submit(job_id)
-        logging.debug(f"Submitted job {job_id}")
+        logger.debug(f"Submitted job {job_id}")
 
     def submit_jobs(self):
         amount_to_submit = self.max_jobs - self.slurm.amount_submitted()
 
         if amount_to_submit <= 0:
-            logging.info("No jobs to submit")
+            logger.info("No jobs to submit")
             return
 
-        logging.info(f"Submitting {amount_to_submit} jobs")
+        logger.info(f"Submitting {amount_to_submit} jobs")
         next_jobs = self.jh.get_next_jobs(amount_to_submit)
         for job_id in next_jobs:
             self.submit_job(job_id)
 
         currently_submitted = self.submitted_job_ids()
         actually_submitted = set(next_jobs) & set(currently_submitted)  # intersection
-        logging.info(f"Actually submitted jobs: {sorted(actually_submitted)}")
+        logger.info(f"Actually submitted jobs: {sorted(actually_submitted)}")
         self.jh.save_started_jobs(actually_submitted)
 
     @staticmethod
@@ -193,10 +208,10 @@ if __name__ == "__main__":
     scheduler = Scheduler(jh, max_jobs=10)
 
     while True:
-        logging.info("Checking for finished jobs")
+        logger.info("Checking for finished jobs")
         scheduler.save_finished_jobs()
 
-        logging.info("Submitting new jobs")
+        logger.info("Submitting new jobs")
         scheduler.submit_jobs()
-        logging.info(f"Sleeping for {SLEEP_AMOUNT // 60} minutes")
+        logger.info(f"Sleeping for {SLEEP_AMOUNT // 60} minutes")
         sleep(SLEEP_AMOUNT)
