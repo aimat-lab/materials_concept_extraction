@@ -19,7 +19,8 @@ TIME = "02:00:00"
 # ~25min per 500 abstracts
 # == 2h for 2000 abstracts
 
-SHELL_TEMPLATE = """#!/bin/sh
+SHELL_TEMPLATE = (
+    """#!/bin/sh
 #SBATCH --partition=gpu_4_a100
 #SBATCH --gres=gpu:1
 #SBATCH --time=$TIME$
@@ -41,7 +42,13 @@ python3 -u full_inference.py \\
  --input_file data/works.csv \\
  --batch_size {batch_size} \\
  --max_new_tokens 650
-""".replace("$VARIANT$", VARIANT).replace("$MODEL$", MODEL).replace("$TIME$", TIME)
+""".replace(
+        "$VARIANT$", VARIANT
+    )
+    .replace("$MODEL$", MODEL)
+    .replace("$TIME$", TIME)
+)
+
 
 def setup_logger(file, level=logging.INFO, log_to_stdout=True):
     logger = logging.getLogger()
@@ -60,6 +67,7 @@ def setup_logger(file, level=logging.INFO, log_to_stdout=True):
     logger.addHandler(file_handler)
 
     return logger
+
 
 logger = setup_logger("scheduler.log", level=logging.DEBUG)
 
