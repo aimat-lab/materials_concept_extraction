@@ -10,7 +10,7 @@ settings = dict(
     TIME="02:00:00",
     JNAME="finf-job",  # adjust
     INPUT="data/works.csv",
-    LLAMA_VARIANT="13B-v2",
+    VARIANT="13B-v2",
     MODEL_ID="ft-xxl",
     START=0,  # adjust
     N=0,  # adjust
@@ -59,9 +59,9 @@ class Slurm:
 
     def submit(self, settings):
         os.makedirs(self.folder, exist_ok=True)
-        file_name = f"finf-{settings['job_id']}.sh"
+        file_name = f"finf-{settings['JNAME']}.sh"
         full_path = os.path.join(self.folder, file_name)
-        self.create_shell_script(**settings)
+        self.create_shell_script(full_path, **settings)
         print(f"sbatch {full_path}")
         Slurm.execute(f"sbatch {full_path}")
 
@@ -87,6 +87,8 @@ regex = re.compile(r"(\d+)_(\d+)")
 inf_dir = (
     "/pfs/work7/workspace/scratch/fb6372-matconcepts/data/inference_13B-v2/ft-xxl/"
 )
+
+slurm = Slurm(TEMPLATE, SHELL_JOB_FOLDER)
 
 
 def get_filename(path):
@@ -125,3 +127,7 @@ for error in errors:
     settings["START"] = start
     settings["N"] = n
     settings["JNAME"] = f"finf-{start}-{error['end']}"
+
+    print(settings)
+    slurm.submit(settings)
+    print("\n\n")
