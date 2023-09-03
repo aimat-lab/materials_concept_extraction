@@ -41,7 +41,7 @@ python3 -u full_inference.py \\
  --input_file data/works.csv \\
  --batch_size {batch_size} \\
  --max_new_tokens 650
-""".replace("$VARIANT", VARIANT).replace("$MODEL$", MODEL).replace("$TIME$", TIME)
+""".replace("$VARIANT$", VARIANT).replace("$MODEL$", MODEL).replace("$TIME$", TIME)
 
 def setup_logger(file, level=logging.INFO, log_to_stdout=True):
     logger = logging.getLogger()
