@@ -6,9 +6,7 @@ from collections import Counter
 STEP_SIZE = 2000
 
 regex = re.compile(r"(\d+)_(\d+)")
-inf_dir = (
-    "/pfs/work7/workspace/scratch/fb6372-matconcepts/data/inference_13B-v2/ft-xxl/"
-)
+inf_dir = "data/ft-xxl-backup/"
 
 
 def get_filename(path):
@@ -56,4 +54,10 @@ for end in grouped.keys():
     print(f"Merging {grouped[end]}")
 
     # df = pd.concat([pd.read_csv(x["file"]) for x in grouped[end]])
-    # df.to_csv(inf_dir + f"{grouped[end][0]['start']}_{end}.csv", index=False)
+    # df.to_csv(inf_dir + f"{grouped[end][0]['start']:06d}_{end:06d}.csv", index=False)
+
+# remove files which start is not % STEP_SIZE == 0
+for f in data:
+    if f["start"] % STEP_SIZE != 0:
+        # os.remove(f["file"])
+        print(f"Removing {f['file']}")
