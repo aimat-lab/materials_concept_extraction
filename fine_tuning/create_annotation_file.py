@@ -5,9 +5,11 @@ import textwrap
 def eval(str):
     return [s.strip(" '[]") for s in str.split(",")]
 
+
 data = pd.read_csv("fine_tuning/0000-1000.csv")
 
-NEWLINE = '\n'
+NEWLINE = "\n"
+
 
 def create_work(id, abstract, keywords, openai):
     diff = keyword_diff(keywords, openai)
@@ -15,7 +17,8 @@ def create_work(id, abstract, keywords, openai):
     all_keywords = sorted(set(eval(keywords) + diff))
     all_keywords = ["# " + k if k in diff else k for k in all_keywords]
 
-    return textwrap.dedent(f"""
+    return textwrap.dedent(
+        f"""
 {"=" * 80}
 
 {id}
@@ -27,11 +30,12 @@ def create_work(id, abstract, keywords, openai):
 §
 
 [n]   
-""")
+"""
+    )
 
 
 def keyword_diff(keywords, openai):
-    openai = openai.replace("-", " ") # chatgpt often includes hyphens
+    openai = openai.replace("-", " ")  # chatgpt often includes hyphens
 
     keywords = [l.lower() for l in eval(keywords)]
     openai = [l.lower() for l in eval(openai)]
@@ -45,4 +49,3 @@ m = data.merge(comp_data, on="id", how="inner")
 with open("fine_tuning/tagging.txt", "w") as f:
     for id, abstract, keywords, openai in zip(m.id, m.abstract, m.concepts, m.openai):
         f.write(create_work(id, abstract, keywords, openai))
-
