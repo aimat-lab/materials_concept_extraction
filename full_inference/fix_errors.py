@@ -4,16 +4,17 @@ import subprocess
 import csv
 
 STEP_SIZE = 2000
+N_DEV_GPU_THRESHOLD = 300
 
 settings = dict(
     GPU="gpu_4_a100",
-    TIME="02:00:00",
-    JNAME="finf-job",  # adjust
+    TIME="02:00:00",  # adjusted automatically, 00:30:00 and GPU set to dev if n < N_DEV_GPU_THRESHOLD
+    JNAME="finf-job",  # adjusted automatically
     INPUT="data/works.csv",
     VARIANT="13B-v2",
     MODEL_ID="ft-xxl",
-    START=0,  # adjust
-    N=0,  # adjust
+    START=0,  # adjust automatically
+    N=0,  # adjust automatically
     BATCH_SIZE=10,
     MAX_NEW_TOKENS=650,
 )
@@ -113,9 +114,6 @@ for f in os.listdir(inf_dir):
 
     if line_count != STEP_SIZE:
         errors.append(dict(start=start, end=end, processed=line_count, file=plain_name))
-
-
-N_DEV_GPU_THRESHOLD = 300
 
 for error in errors:
     start = error["start"] + error["processed"]

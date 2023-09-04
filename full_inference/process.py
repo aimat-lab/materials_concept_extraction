@@ -1,11 +1,12 @@
 import re
 import pandas as pd
 from tqdm import tqdm
-from ast import literal_eval
 
 tqdm.pandas()
 
 between_brackets = re.compile(r"\[([^]]+)\]")  # extract text between square brackets
+
+EL_FILTER = ["As", "At", "In"]  # these elements also occur in concepts
 
 elements = {
     "H": "hydrogen",
@@ -164,7 +165,14 @@ def process_work(text):
 
 
 def clean_concepts(concepts):
-    concepts = [concept.lower().replace("/", " ") for concept in concepts]
+    concepts = [
+        concept.lower()
+        .replace("/", " ")
+        .replace("-", " ")
+        .replace("aluminum", "aluminium")
+        for concept in concepts
+    ]
+
     return concepts
 
 
@@ -182,13 +190,16 @@ def substitute_single_elements(row):
     for concept in search_concepts:
         temp = concept
 
-        for el in els:  # check all elements found in abstract
-            if (
-                el not in elements
-            ):  # only substitute if element is in the periodic table
+        for el in elements:
+            if el not in els and len(el) == 1:
                 continue
 
-            temp = temp.replace(" " + el.lower() + " ", " " + elements[el] + " ")
+            if el in EL_FILTER:
+                continue
+
+            temp = temp.replace(
+                " " + el.lower() + " ", " " + elements[el] + " "
+            )  # ensures to replace only whole words
 
         concepts.append(temp.strip())
 
@@ -199,6 +210,9 @@ if __name__ == "__main__":
     import os
 
     PATH = "data/raw-v2/"
+    WORK_FILE = "data/materials-science.elements.works.csv"
+    OUT_FILE = "data/materials-science.elements.works.llama-v2.csv"
+    SEPARATE_CONCEPTS_FILE = "data/concepts-v2.csv"
 
     dfs = [pd.read_csv(PATH + f) for f in os.listdir(PATH) if f.endswith(".csv")]
     df = pd.concat(dfs)
@@ -210,7 +224,7 @@ if __name__ == "__main__":
 
     df = df.rename(columns={"concepts": "llama_concepts"})
 
-    original = pd.read_csv("data/materials-science.elements.works.csv")
+    original = pd.read_csv(WORK_FILE)
 
     m = original.merge(df, on="id")
 
@@ -219,6 +233,6 @@ if __name__ == "__main__":
     m["elements"] = m["elements"].fillna("")
     m["llama_concepts"] = m.progress_apply(substitute_single_elements, axis=1)
 
-    m.to_csv("data/materials-science.elements.works.llama-v2.csv", index=False)
+    m.to_csv(OUT_FILE, index=False)
 
-    m[["id", "llama_concepts"]].to_csv("data/concepts-v2.csv", index=False)
+    m[["id", "llama_concepts"]].to_csv(SEPARATE_CONCEPTS_FILE, index=False)
