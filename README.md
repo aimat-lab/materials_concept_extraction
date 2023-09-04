@@ -45,7 +45,7 @@ From [Github](https://github.com/shawwn/llama-dl):
 
 ## LLaMa 2 Weights
 
-Can be obtained by filling out Meta's form. You can then download the weights via huggingface directly. No conversion needs to be done.
+Can be obtained by filling out Meta's form. You can then download the weights via Hugging Face directly. No conversion needs to be done.
 
 ## Cuda Compatible Installation
 
