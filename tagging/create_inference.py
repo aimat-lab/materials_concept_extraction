@@ -5,7 +5,7 @@ import pandas as pd
 def main(
     base_file="data/materials-science.elements.works.csv",
     ground_truth_file="tagging/out.csv",
-    output_file="preparation/hpc/data-inference/untagged.csv",
+    output_file="tagging/untagged.csv",
     n_samples=500,
 ):
     all_works = pd.read_csv(base_file)

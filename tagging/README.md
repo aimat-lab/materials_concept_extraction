@@ -44,3 +44,9 @@ The generated file can be annotated and later be parsed back into a more structu
 `$ python tagging/extract_tags.py tagging/abstracts.txt tagging/out.csv`
 
 This .csv file will contain two columns, mapping IDs to concepts (which are stored as comma separated string).
+
+## Test model on new data
+
+Generate sample of size N which doesn't include training (tagged) data.
+
+`$ python tagging/create_inference.py data/materials-science.elements.works.csv tagging/out.csv tagging/untagged.csv 500`
