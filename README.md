@@ -30,6 +30,12 @@ Highlights:
 - If jobs fail, new jobs can be started continuing where the failed job left off. These corrections are saved in a separate file and can be merged with the original concept files.
 - In the end, all concepts can be cleaned and merged into a single file.
 
+## `data` folder
+
+Contains the annotated abstracts in `train.csv` (first 100) and `train_xxl.csv` (100 + 100 corrected samples).
+
+`raw-v1.tar.gz` and `raw-v2.tar.gz` contain the results of Llama-13B and Llama-2-13B, respectively.
+
 # General Stuff
 
 ## Deprecated: LLaMa 1 Weights
@@ -45,7 +51,7 @@ From [Github](https://github.com/shawwn/llama-dl):
 
 ## LLaMa 2 Weights
 
-Can be obtained by filling out Meta's form. You can then download the weights via Hugging Face directly. No conversion needs to be done.
+Can be obtained by filling out Meta's form. You can then download the weights via Hugging Face directly. No conversion needs to be done. Commit of version used: `bd5c881755fa1f0518506e60207229b13b0f67e1`.
 
 ## Cuda Compatible Installation
 
